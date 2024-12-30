@@ -1,0 +1,102 @@
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_base_1_width_1_height_9_mm_depth
+kwargs:
+  height: 1
+  modes:
+  - 3dpr
+  overwrite: true
+  thickness: 9
+  type: oomlout_oobb_part_tray_stackable_experiment_base
+  width: 1
+name: base
+project_name: C:\gh\oomlout_oobb_part_tray_stackable_experiment
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 9
+      height: 1.0666666666666667
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 15.0
+      - 15.0
+      - 9
+      type: positive
+      width: 1.0666666666666667
+  - - depth: 6
+      height: 0.9333333333333333
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 3
+      shape: rounded_rectangle
+      size:
+      - 13.0
+      - 13.0
+      - 6
+      type: negative
+      width: 0.9333333333333333
+  components_objects:
+  - depth: 9
+    height: 1.0666666666666667
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_plate
+    thickness: 9
+    type: p
+    width: 1.0666666666666667
+  - depth: 6
+    height: 0.9333333333333333
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 3
+    save_type: all
+    shape: oobb_plate
+    thickness: 9
+    type: n
+    width: 0.9333333333333333
+  components_string:
+  - oobb_plate_shape_p_type_9_depth_all_save_type_true_overwrite_'3dpr'_modes_1.0666666666666667_width_1.0666666666666667_height_9_thickness
+  - oobb_plate_shape_n_type_6_depth_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_0.9333333333333333_width_0.9333333333333333_height_9_thickness
+  description: oomlout oobb part tray stackable experiment base 1x1x9
+  description_extra: ''
+  description_main: 1_width_1_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\things\oobb_part_oomlout_oobb_part_tray_stackable_experiment_base_1_width_1_height_9_mm_depth
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_base_1_width_1_height_9_mm_depth
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Part Tray Stackable Experiment Base 1 Width 1 Height
+    9 mm Depth
+  name_short: Oomlout Tray Stackable Experiment Base
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_part_tray_stackable_experiment_base
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 1
+  width_mm: 14
