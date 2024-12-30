@@ -24,7 +24,7 @@ def make_scad(**kwargs):
         filter = "stackable_1"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         navigation = False
         #navigation = True    
@@ -196,6 +196,7 @@ def get_stackable_1(thing, **kwargs):
     radius_1 = 5
     radius_2 = radius_1 - thickness_wall
     radius_3 = radius_2 - clearance_inset_stacking
+    radius_4 = radius_3 - thickness_wall
 
     wid_top = 0
     hei_top = 0
@@ -204,6 +205,7 @@ def get_stackable_1(thing, **kwargs):
 
     #base tray
     if True:
+    #if False:
         #add plate
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
@@ -233,14 +235,15 @@ def get_stackable_1(thing, **kwargs):
         p4["size"] = size     
         p4["radius"] = radius_2
         #p3["holes"] = True         uncomment to include default holes
-        #p4["m"] = "#"
+        p4["m"] = "#"
         pos1 = copy.deepcopy(pos)         
         pos1[2] += thickness_stack_base + thickness_stack_interface 
         p4["pos"] = pos1
         oobb_base.append_full(thing,**p4)
 
-    #add bottom inset    
+    #add bottom inset        
     if True:
+    #if False:
         #add plate
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
@@ -280,16 +283,17 @@ def get_stackable_1(thing, **kwargs):
     #add joiner
     if True:
         #add plate
+        removal = (clearance_inset_stacking*2 + thickness_wall*2)
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "p"
-        p3["shape"] = f"rounded_rectangle"    
-        wid = wid_top
-        hei = hei_top
+        p3["shape"] = f"rounded_rectangle_extra"    
+        wid = wid_top - removal
+        hei = hei_top - removal
         dep = thickness_stack_interface
         size = [wid, hei, dep]
         p3["size"] = size     
-        p3["r2"] = radius_1
-        p3["r1"] = radius_3
+        p3["radius"] = radius_3
+        p3["inset"] = -removal
         #p3["holes"] = True         uncomment to include default holes
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
@@ -302,24 +306,25 @@ def get_stackable_1(thing, **kwargs):
         p4["type"] = "n"
         pos1 = copy.deepcopy(pos)
         pos1[2] += depth_mm
-        p4["pos"] = pos1
+        p4["pos"] = pos1        
         #p4["m"] = "#"
         oobb_base.append_full(thing,**p4)
 
 
         #add cutout
+        removal = (clearance_inset_stacking*2 + thickness_wall*2)
         p3 = copy.deepcopy(kwargs)
-        p3["type"] = "n"
-        p3["shape"] = f"rounded_rectangle"    
-        wid = wid
-        hei = hei
+        p3["type"] = "p"
+        p3["shape"] = f"rounded_rectangle_extra"    
+        wid = wid_top - removal - 2*thickness_wall
+        hei = hei_top - removal - 2*thickness_wall
         dep = thickness_stack_interface
         size = [wid, hei, dep]
         p3["size"] = size     
-        p3["r2"] = radius_2
-        p3["r1"] = radius_3
+        p3["radius"] = radius_4
+        p3["inset"] = -removal
         #p3["holes"] = True         uncomment to include default holes
-        #p3["m"] = "#"
+        p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
         pos1[2] += thickness_stack_base
         p3["pos"] = pos1
