@@ -314,7 +314,7 @@ def get_stackable_1(thing, **kwargs):
         #add cutout
         removal = (clearance_inset_stacking*2 + thickness_wall*2)
         p3 = copy.deepcopy(kwargs)
-        p3["type"] = "p"
+        p3["type"] = "n"
         p3["shape"] = f"rounded_rectangle_extra"    
         wid = wid_top - removal - 2*thickness_wall
         hei = hei_top - removal - 2*thickness_wall

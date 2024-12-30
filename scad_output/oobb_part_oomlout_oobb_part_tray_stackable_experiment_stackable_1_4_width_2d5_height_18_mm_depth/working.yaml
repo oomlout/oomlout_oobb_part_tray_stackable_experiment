@@ -102,7 +102,7 @@ thing:
       - 55.0
       - 32.5
       - 1.5
-      type: positive
+      type: negative
       width: 4
   components_objects:
   - height: 2.5
@@ -216,7 +216,7 @@ thing:
     - 32.5
     - 1.5
     thickness: 18
-    type: p
+    type: n
     width: 4
   components_string:
   - rounded_rectangle_shape_p_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_60_37.5_16.5_size_5_radius
@@ -224,7 +224,7 @@ thing:
   - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.0_34.5_1.5_size_3.5_radius
   - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.0_34.5_1.5_size_3.5_radius_-3.0_inset
   - rounded_rectangle_extra_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.0_34.5_1.5_size_3.5_radius_-3.0_inset
-  - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_55.0_32.5_1.5_size_2.5_radius_-3.0_inset
+  - rounded_rectangle_extra_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_55.0_32.5_1.5_size_2.5_radius_-3.0_inset
   description: oomlout oobb part tray stackable experiment stackable 1 4x2.5x18
   description_extra: ''
   description_main: 4_width_2.5_height_18_mm_depth
