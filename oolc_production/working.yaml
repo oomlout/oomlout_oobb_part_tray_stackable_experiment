@@ -1,6 +1,6 @@
 project_id: oomlout_oobb_part_tray_stackable_experiment
 project_name: Oomlout Oobb Part Tray Stackable Experiment
 project_repo: https://github.com/oomlout/oomlout_oobb_part_tray_stackable_experiment
-production_format:
-  oolc_1:
-    file_location: source_files/oolc_1.cdr
+#production_format:
+#  oolc_1:
+#    file_location: source_files/oolc_1.cdr
