@@ -7,8 +7,8 @@ import os
 
 thickness_wall = 1
 thickness_base = 3
-thickness_stack_base = 1.5
-thickness_stack_interface = 1.5
+thickness_stack_base =  1.5
+#set in routine now thickness_stack_interface = 1.5
 clearance_inset_stacking = 0#0.5
 
 
@@ -58,24 +58,34 @@ def make_scad(**kwargs):
         names = ["base", "stackable_1"]
         sizes = []
         sizes.append([4, 2.5, 18])
-        sizes.append([2, 2, 9])
-        sizes.append([1, 1, 9])
+        sizes.append([2, 2, 7])
+        sizes.append([1, 1, 7])
         sizes.append([2, 2, 18])
         sizes.append([4, 2, 18])
+        sizes.append([2, 2, 12])
+        sizes.append([4, 2, 12])
+
+        extras = []
+        extras.append("")
+
+        extras.append("thickness_stack_interface_2d5")
 
         for size in sizes:
             for name in names:
-                wid = size[0]
-                hei = size[1]
-                dep = size[2]
-                part = copy.deepcopy(part_default)
-                p3 = copy.deepcopy(kwargs)
-                p3["width"] = wid
-                p3["height"] = hei
-                p3["thickness"] = dep
-                part["kwargs"] = p3
-                part["name"] = name
-                parts.append(part)
+                for extra in extras:
+                    wid = size[0]
+                    hei = size[1]
+                    dep = size[2]
+                    part = copy.deepcopy(part_default)
+                    p3 = copy.deepcopy(kwargs)
+                    p3["width"] = wid
+                    p3["height"] = hei
+                    p3["thickness"] = dep
+                    if extra != "":
+                        p3["extra"] = extra
+                    part["kwargs"] = p3
+                    part["name"] = name
+                    parts.append(part)
 
         
     #make the parts
@@ -188,6 +198,12 @@ def get_stackable_1(thing, **kwargs):
     depth = kwargs.get("thickness", 3)                    
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    if extra == "":
+        thickness_stack_interface = 1.5
+    else:
+        value = extra.replace("thickness_stack_interface_","")
+        thickness_stack_interface = float(value.replace("d","."))
     #pos = copy.deepcopy(pos)
     #pos[2] += -20
 
