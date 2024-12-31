@@ -53,54 +53,54 @@ thing:
       - 0
       - 0
       - 0
-      r: 4
+      r: 3.75
       shape: rounded_rectangle
       size:
-      - 58
-      - 35.5
+      - 57.5
+      - 35.0
       - 1.5
       type: positive
       width: 4
   - - height: 2.5
-      inset: -2
+      inset: -2.5
       pos:
       - 0
       - 0
       - 1.5
-      r: 4
+      r: 3.75
       shape: rounded_rectangle_extra
       size:
-      - 58
-      - 35.5
+      - 57.5
+      - 35.0
       - 1.5
       type: positive
       width: 4
   - - height: 2.5
-      inset: -2
+      inset: -2.5
       pos:
       - 0
       - 0
       - 18
-      r: 4
+      r: 3.75
       shape: rounded_rectangle_extra
       size:
-      - 58
-      - 35.5
+      - 57.5
+      - 35.0
       - 1.5
       type: negative
       width: 4
   - - height: 2.5
-      inset: -2
+      inset: -2.5
       m: '#'
       pos:
       - 0
       - 0
       - 1.5
-      r: 3
+      r: 2.75
       shape: rounded_rectangle_extra
       size:
-      - 56
-      - 33.5
+      - 55.5
+      - 33.0
       - 1.5
       type: negative
       width: 4
@@ -150,18 +150,18 @@ thing:
     - 0
     - 0
     - 0
-    radius: 4
+    radius: 3.75
     save_type: all
     shape: rounded_rectangle
     size:
-    - 58
-    - 35.5
+    - 57.5
+    - 35.0
     - 1.5
     thickness: 18
     type: p
     width: 4
   - height: 2.5
-    inset: -2
+    inset: -2.5
     modes:
     - 3dpr
     overwrite: true
@@ -169,18 +169,18 @@ thing:
     - 0
     - 0
     - 1.5
-    radius: 4
+    radius: 3.75
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 58
-    - 35.5
+    - 57.5
+    - 35.0
     - 1.5
     thickness: 18
     type: p
     width: 4
   - height: 2.5
-    inset: -2
+    inset: -2.5
     modes:
     - 3dpr
     overwrite: true
@@ -188,18 +188,18 @@ thing:
     - 0
     - 0
     - 18
-    radius: 4
+    radius: 3.75
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 58
-    - 35.5
+    - 57.5
+    - 35.0
     - 1.5
     thickness: 18
     type: n
     width: 4
   - height: 2.5
-    inset: -2
+    inset: -2.5
     m: '#'
     modes:
     - 3dpr
@@ -208,12 +208,12 @@ thing:
     - 0
     - 0
     - 1.5
-    radius: 3
+    radius: 2.75
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 56
-    - 33.5
+    - 55.5
+    - 33.0
     - 1.5
     thickness: 18
     type: n
@@ -221,10 +221,10 @@ thing:
   components_string:
   - rounded_rectangle_shape_p_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_60_37.5_16.5_size_5_radius
   - rounded_rectangle_shape_n_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_58_35.5_16.5_size_4_radius
-  - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_58_35.5_1.5_size_4_radius
-  - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_58_35.5_1.5_size_4_radius_-2_inset
-  - rounded_rectangle_extra_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_58_35.5_1.5_size_4_radius_-2_inset
-  - rounded_rectangle_extra_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_56_33.5_1.5_size_3_radius_-2_inset
+  - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.5_35.0_1.5_size_3.75_radius
+  - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.5_35.0_1.5_size_3.75_radius_-2.5_inset
+  - rounded_rectangle_extra_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_57.5_35.0_1.5_size_3.75_radius_-2.5_inset
+  - rounded_rectangle_extra_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2.5_height_18_thickness_55.5_33.0_1.5_size_2.75_radius_-2.5_inset
   description: oomlout oobb part tray stackable experiment stackable 1 4x2.5x18
   description_extra: ''
   description_main: 4_width_2.5_height_18_mm_depth

@@ -9,7 +9,7 @@ thickness_wall = 1
 thickness_base = 3
 thickness_stack_base =  1.5
 #set in routine now thickness_stack_interface = 1.5
-clearance_inset_stacking = 0#0.5
+clearance_inset_stacking = 0.25#0#0.5
 
 
 def main(**kwargs):
@@ -68,7 +68,7 @@ def make_scad(**kwargs):
         extras = []
         extras.append("")
 
-        extras.append("thickness_stack_interface_2d5")
+        #extras.append("thickness_stack_interface_2d5")
 
         for size in sizes:
             for name in names:
