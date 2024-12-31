@@ -9,7 +9,7 @@ thickness_wall = 1
 thickness_base = 3
 thickness_stack_base = 1.5
 thickness_stack_interface = 1.5
-clearance_inset_stacking = 0.5
+clearance_inset_stacking = 0#0.5
 
 
 def main(**kwargs):
@@ -60,6 +60,8 @@ def make_scad(**kwargs):
         sizes.append([4, 2.5, 18])
         sizes.append([2, 2, 9])
         sizes.append([1, 1, 9])
+        sizes.append([2, 2, 18])
+        sizes.append([4, 2, 18])
 
         for size in sizes:
             for name in names:

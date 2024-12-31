@@ -6,13 +6,13 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_9_mm_depth
+id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_18_mm_depth
 kwargs:
   height: 2
   modes:
   - 3dpr
   overwrite: true
-  thickness: 9
+  thickness: 18
   type: oomlout_oobb_part_tray_stackable_experiment_stackable_1
   width: 2
 name: stackable_1
@@ -31,7 +31,7 @@ thing:
       size:
       - 30
       - 30
-      - 7.5
+      - 16.5
       type: positive
       width: 2
   - - height: 2
@@ -45,7 +45,7 @@ thing:
       size:
       - 28
       - 28
-      - 7.5
+      - 16.5
       type: negative
       width: 2
   - - height: 2
@@ -80,7 +80,7 @@ thing:
       pos:
       - 0
       - 0
-      - 9
+      - 18
       r: 4
       shape: rounded_rectangle_extra
       size:
@@ -119,8 +119,8 @@ thing:
     size:
     - 30
     - 30
-    - 7.5
-    thickness: 9
+    - 16.5
+    thickness: 18
     type: p
     width: 2
   - height: 2
@@ -138,8 +138,8 @@ thing:
     size:
     - 28
     - 28
-    - 7.5
-    thickness: 9
+    - 16.5
+    thickness: 18
     type: n
     width: 2
   - height: 2
@@ -157,7 +157,7 @@ thing:
     - 28
     - 28
     - 1.5
-    thickness: 9
+    thickness: 18
     type: p
     width: 2
   - height: 2
@@ -176,7 +176,7 @@ thing:
     - 28
     - 28
     - 1.5
-    thickness: 9
+    thickness: 18
     type: p
     width: 2
   - height: 2
@@ -187,7 +187,7 @@ thing:
     pos:
     - 0
     - 0
-    - 9
+    - 18
     radius: 4
     save_type: all
     shape: rounded_rectangle_extra
@@ -195,7 +195,7 @@ thing:
     - 28
     - 28
     - 1.5
-    thickness: 9
+    thickness: 18
     type: n
     width: 2
   - height: 2
@@ -215,32 +215,32 @@ thing:
     - 26
     - 26
     - 1.5
-    thickness: 9
+    thickness: 18
     type: n
     width: 2
   components_string:
-  - rounded_rectangle_shape_p_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_30_30_7.5_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_28_28_7.5_size_4_radius
-  - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_28_28_1.5_size_4_radius
-  - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_28_28_1.5_size_4_radius_-2_inset
-  - rounded_rectangle_extra_shape_n_type_0_0_9_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_28_28_1.5_size_4_radius_-2_inset
-  - rounded_rectangle_extra_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_9_thickness_26_26_1.5_size_3_radius_-2_inset
-  description: oomlout oobb part tray stackable experiment stackable 1 2x2x9
+  - rounded_rectangle_shape_p_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30_30_16.5_size_5_radius
+  - rounded_rectangle_shape_n_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28_28_16.5_size_4_radius
+  - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28_28_1.5_size_4_radius
+  - rounded_rectangle_extra_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28_28_1.5_size_4_radius_-2_inset
+  - rounded_rectangle_extra_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28_28_1.5_size_4_radius_-2_inset
+  - rounded_rectangle_extra_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_26_26_1.5_size_3_radius_-2_inset
+  description: oomlout oobb part tray stackable experiment stackable 1 2x2x18
   description_extra: ''
-  description_main: 2_width_2_height_9_mm_depth
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_9_mm_depth
+  description_main: 2_width_2_height_18_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_18_mm_depth
   height: 2
   height_mm: 29
-  id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_9_mm_depth
+  id: oobb_part_oomlout_oobb_part_tray_stackable_experiment_stackable_1_2_width_2_height_18_mm_depth
   manufacturer: ''
   name: Oobb Part Oomlout Oobb Part Tray Stackable Experiment Stackable 1 2 Width
-    2 Height 9 mm Depth
+    2 Height 18 mm Depth
   name_short: Oomlout Tray Stackable Experiment
   part_number: ''
   short_name: ''
   size: oomlout_oobb_part_tray_stackable_experiment_stackable_1
-  thickness: 9
-  thickness_mm: 9
+  thickness: 18
+  thickness_mm: 18
   type: part
   width: 2
   width_mm: 29
