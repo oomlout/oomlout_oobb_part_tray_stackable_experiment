@@ -44,7 +44,7 @@ thing:
       size:
       - 58
       - 28
-      - 15.0
+      - 15.5
       type: negative
       width: 4
   - - height: 2
@@ -104,29 +104,29 @@ thing:
   - - height: 2
       m: '#'
       pos:
-      - -15.0
+      - -15.375
       - 0
-      - 3.0
-      r: 3.75
+      - 3.5
+      r: 4
       shape: rounded_rectangle
       size:
+      - 27.25
       - 28
-      - 28
-      - 1.5
+      - 1
       type: negative
       width: 4
   - - height: 2
       m: '#'
       pos:
-      - 15.0
+      - 15.375
       - 0
-      - 3.0
-      r: 3.75
+      - 3.5
+      r: 4
       shape: rounded_rectangle
       size:
+      - 27.25
       - 28
-      - 28
-      - 1.5
+      - 1
       type: negative
       width: 4
   - - height: 2
@@ -135,7 +135,7 @@ thing:
       - 0
       - 0
       - 18
-      r: 3.75
+      r: 4
       shape: rounded_rectangle
       size:
       - 57.5
@@ -147,13 +147,13 @@ thing:
       inset: -2.5
       m: '#'
       pos:
-      - -15.0
+      - -15.375
       - 0
-      - 1.5
+      - 2.0
       r: 2.75
       shape: rounded_rectangle_extra
       size:
-      - 25.5
+      - 24.75
       - 25.5
       - 1.5
       type: negative
@@ -162,13 +162,13 @@ thing:
       inset: -2.5
       m: '#'
       pos:
-      - 15.0
+      - 15.375
       - 0
-      - 1.5
+      - 2.0
       r: 2.75
       shape: rounded_rectangle_extra
       size:
-      - 25.5
+      - 24.75
       - 25.5
       - 1.5
       type: negative
@@ -206,7 +206,7 @@ thing:
     size:
     - 58
     - 28
-    - 15.0
+    - 15.5
     thickness: 18
     type: n
     width: 4
@@ -290,16 +290,16 @@ thing:
     - 3dpr
     overwrite: true
     pos:
-    - -15.0
+    - -15.375
     - 0
-    - 3.0
-    radius: 3.75
+    - 3.5
+    radius: 4
     save_type: all
     shape: rounded_rectangle
     size:
+    - 27.25
     - 28
-    - 28
-    - 1.5
+    - 1
     thickness: 18
     type: n
     width: 4
@@ -309,16 +309,16 @@ thing:
     - 3dpr
     overwrite: true
     pos:
-    - 15.0
+    - 15.375
     - 0
-    - 3.0
-    radius: 3.75
+    - 3.5
+    radius: 4
     save_type: all
     shape: rounded_rectangle
     size:
+    - 27.25
     - 28
-    - 28
-    - 1.5
+    - 1
     thickness: 18
     type: n
     width: 4
@@ -331,7 +331,7 @@ thing:
     - 0
     - 0
     - 18
-    radius: 3.75
+    radius: 4
     save_type: all
     shape: rounded_rectangle
     size:
@@ -348,14 +348,14 @@ thing:
     - 3dpr
     overwrite: true
     pos:
-    - -15.0
+    - -15.375
     - 0
-    - 1.5
+    - 2.0
     radius: 2.75
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 25.5
+    - 24.75
     - 25.5
     - 1.5
     thickness: 18
@@ -368,14 +368,14 @@ thing:
     - 3dpr
     overwrite: true
     pos:
-    - 15.0
+    - 15.375
     - 0
-    - 1.5
+    - 2.0
     radius: 2.75
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 25.5
+    - 24.75
     - 25.5
     - 1.5
     thickness: 18
@@ -383,16 +383,16 @@ thing:
     width: 4
   components_string:
   - rounded_rectangle_shape_p_type_0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_60_30_16.5_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_58_28_15.0_size_4_radius
+  - rounded_rectangle_shape_n_type_0_0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_58_28_15.5_size_4_radius
   - rounded_rectangle_shape_p_type_-15.0_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.5_27.5_1.5_size_3.75_radius
   - rounded_rectangle_shape_p_type_15.0_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.5_27.5_1.5_size_3.75_radius
   - rounded_rectangle_extra_shape_p_type_-15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.5_27.5_1.5_size_3.75_radius_-2.5_inset
   - rounded_rectangle_extra_shape_p_type_15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.5_27.5_1.5_size_3.75_radius_-2.5_inset
-  - rounded_rectangle_shape_n_type_-15.0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28_28_1.5_size_3.75_radius
-  - rounded_rectangle_shape_n_type_15.0_0_3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28_28_1.5_size_3.75_radius
-  - rounded_rectangle_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_57.5_27.5_1.5_size_3.75_radius
-  - rounded_rectangle_extra_shape_n_type_-15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_25.5_25.5_1.5_size_2.75_radius_-2.5_inset
-  - rounded_rectangle_extra_shape_n_type_15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_25.5_25.5_1.5_size_2.75_radius_-2.5_inset
+  - rounded_rectangle_shape_n_type_-15.375_0_3.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_4_radius_27.25_28_1_size
+  - rounded_rectangle_shape_n_type_15.375_0_3.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_4_radius_27.25_28_1_size
+  - rounded_rectangle_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_4_radius_57.5_27.5_1.5_size
+  - rounded_rectangle_extra_shape_n_type_-15.375_0_2.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_24.75_25.5_1.5_size_2.75_radius_-2.5_inset
+  - rounded_rectangle_extra_shape_n_type_15.375_0_2.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_24.75_25.5_1.5_size_2.75_radius_-2.5_inset
   description: oomlout oobb part tray stackable experiment stackable 2 4x2x18
   description_extra: ''
   description_main: 4_width_2_height_18_mm_depth
