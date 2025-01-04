@@ -5,7 +5,7 @@ import oobb_base
 import yaml
 import os
 
-thickness_wall = 1
+thickness_wall = 0.8
 thickness_base = 3
 thickness_bottom = 1
 
