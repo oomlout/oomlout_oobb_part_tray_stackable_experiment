@@ -9,11 +9,16 @@ thickness_wall = 0.8
 thickness_base = 3
 thickness_bottom = 1
 
+thickness_bottom_angle_piece = 0.5
+thickness_bottom_straight_piece = 1
+
+thickness_stack_interface = thickness_bottom_angle_piece + thickness_bottom_straight_piece
+
 thickness_extra_middle = 0.75
 extra_middle = 1.5
 #set in routine now thickness_stack_interface = 1.5
-clearance_inset_stacking = 0.25#0#0.5
-inset_bottom = 1 #1.5
+clearance_inset_stacking = 0#0.25#0#0.5
+inset_bottom = 0.5 #1.5
 
 def main(**kwargs):
     make_scad(**kwargs)
@@ -24,7 +29,7 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         #filter = ""
-        filter = "stackable_2"
+        filter = "stackable_3"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
@@ -421,13 +426,7 @@ def get_stackable_2(thing, **kwargs):
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
-    if extra == "":
-        thickness_stack_interface = 3
-    else:
-        value = extra.replace("thickness_stack_interface_","")
-        thickness_stack_interface = float(value.replace("d","."))
-    #pos = copy.deepcopy(pos)
-    #pos[2] += -20
+    
 
 
     width_mm = width * 15
@@ -470,6 +469,9 @@ def get_stackable_2(thing, **kwargs):
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
         
+    
+
+
         #add cutout
         p4 = copy.deepcopy(p3)
         p4["type"] = "n"
@@ -486,63 +488,8 @@ def get_stackable_2(thing, **kwargs):
         p4["pos"] = pos1
         oobb_base.append_full(thing,**p4)
 
-    #add bottom inset        
-    #if True:
-    if False:
-        #add plate
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "p"
-        p3["shape"] = f"rounded_rectangle"    
-        wid = width_bottom_mm - 2*thickness_wall - 2*clearance_inset_stacking
-        hei = height_bottom_mm - 2*thickness_wall - 2*clearance_inset_stacking
-        wid_bot = wid
-        hei_bot = hei
-        dep = thickness_stack_interface
-        size = [wid, hei, dep]
-        p3["size"] = size     
-        p3["radius"] = radius_3
-        #p3["holes"] = True         uncomment to include default holes
-        #p3["m"] = "#"
-        pos1 = copy.deepcopy(pos)         
-        pos1[2] += 0
-        poss = []
-        pos11 = copy.deepcopy(pos1)
-        pos11[0] += -width_bottom_mm/2
-        poss.append(pos11)
-        pos12 = copy.deepcopy(pos1)
-        pos12[0] += width_bottom_mm/2
-        poss.append(pos12)
-        p3["pos"] = poss 
-        oobb_base.append_full(thing,**p3)
-        
-        #add cutout
-        # p3 = copy.deepcopy(kwargs)
-        # p3["type"] = "n"
-        # p3["shape"] = f"rounded_rectangle"    
-        # wid = wid - 2*thickness_wall
-        # hei = hei - 2*thickness_wall
-        # dep = depth_mm - thickness_stack_interface
-        # size = [wid, hei, dep]
-        # p3["size"] = size     
-        # p3["radius"] = 5- thickness_wall
-        # #p3["holes"] = True         uncomment to include default holes
-        # #p3["m"] = "#"
-        # pos1 = copy.deepcopy(pos)         
-        # pos1[2] += 0
-        # poss = []
-        # pos11 = copy.deepcopy(pos1)
-        # pos11[0] += -width_bottom_mm/2
-        # poss.append(pos11)
-        # pos12 = copy.deepcopy(pos1)
-        # pos12[0] += width_bottom_mm/2
-        # poss.append(pos12)
-        # p3["pos"] = poss 
-        #oobb_base.append_full(thing,**p3)
-
     #add joiner
-    if True:
-        
-
+    if True:        
         #add plate
         removal = thickness_wall * 2 + clearance_inset_stacking * 2
         p3 = copy.deepcopy(kwargs)
@@ -550,7 +497,7 @@ def get_stackable_2(thing, **kwargs):
         p3["shape"] = f"rounded_rectangle_extra"    
         wid = width_bottom_mm - removal 
         hei = height_bottom_mm - removal
-        dep = thickness_stack_interface
+        dep = thickness_bottom_angle_piece
         size = [wid, hei, dep]
         p3["size"] = size     
         p3["radius"] = radius_3
@@ -571,76 +518,49 @@ def get_stackable_2(thing, **kwargs):
         rot1[1] = 180
         p3["rot"] = rot1
         oobb_base.append_full(thing,**p3)
+        #add angle cutout
+        if True:
+            p4 = copy.deepcopy(p3)
+            p4["type"] = "n"
+            size2 = copy.deepcopy(p3.get("size",[]))
+            size2[0] += -2*thickness_wall
+            size2[1] += -2*thickness_wall
+            p4["size"] = size2     
+            p4["radius"] = radius_4            
+            p4["m"] = "#"
+            #more complicated becaue of slicing a cone but part of thickness bottom so not needed
+            #oobb_base.append_full(thing,**p4)
 
-        #add extra cutouts to get theough the joiing layer in the bottom
-        #add plate
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "n"
-        p3["shape"] = f"rounded_rectangle"    
-        p3["radius"] = radius_3
-        wid = width_bottom_mm - 2*thickness_wall #- extra_middle
-        hei = height_bottom_mm - 2*thickness_wall
-        wid_bot = wid
-        hei_bot = hei
-        dep = thickness_extra_middle
-        size = [wid, hei, dep]
-        p3["size"] = size     
-        p3["radius"] = radius_2
-        #p3["holes"] = True         uncomment to include default holes
-        p3["m"] = "#"
-        pos1 = copy.deepcopy(pos)         
-        pos1[2] += thickness_stack_interface + thickness_stack_interface #+thickness_extra_middle/2
-        poss = []
-        pos11 = copy.deepcopy(pos1)
-        pos11[0] += -width_bottom_mm/2 - extra_middle/2
-        poss.append(pos11)
-        pos12 = copy.deepcopy(pos1)
-        pos12[0] += width_bottom_mm/2 + extra_middle/2
-        poss.append(pos12)
-        p3["pos"] = poss 
-        #oobb_base.append_full(thing,**p3)
-
-        #add joiner to the top
+        #straight piece
         p4 = copy.deepcopy(p3)
-        p4["type"] = "n"
-        wid = width_mm - removal
-        hei = height_mm - removal
-        dep = thickness_stack_interface
-        size = [wid, hei, dep]
-        p4["size"] = size     
-        pos1 = copy.deepcopy(pos)
-        pos1[2] += depth_mm        
-        p4["pos"] = pos1        
-        p4["m"] = ""
+        p4.pop("inset","")
+        size2 = copy.deepcopy(p3.get("size",[]))
+        size2[2] = thickness_bottom_straight_piece
+        p4["size"] = size2            
+        poss2 = copy.deepcopy(poss)
+        for pos2 in poss2:
+            pos2[2] += thickness_bottom_straight_piece
+        p4["pos"] = poss2
+        #p4["m"] = "#"
         oobb_base.append_full(thing,**p4)
+        #cutout
+        if True:
+            p5 = copy.deepcopy(p4)
+            p5["type"] = "n"
+            size2 = copy.deepcopy(p4.get("size",[]))
+            size2[0] += -2*thickness_wall
+            size2[1] += -2*thickness_wall
+            size2[2] += -thickness_bottom + thickness_bottom_angle_piece + thickness_bottom
+            poss3 = copy.deepcopy(poss2)
+            for pos3 in poss3:
+                pos3[2] += +thickness_bottom
+            p5["pos"] = poss3
+            p5["size"] = size2
+            p5["radius"] = radius_5
+            p5["m"] = "#"
+            oobb_base.append_full(thing,**p5)
 
-
-        #add cutout
-        removal = (clearance_inset_stacking*2 + thickness_wall*2)
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "n"
-        p3["shape"] = f"rounded_rectangle_extra"    
-        wid = hei - 4*thickness_wall
-        hei = hei - 4*thickness_wall
-        dep = thickness_stack_interface
-        size = [wid, hei, dep]
-        p3["size"] = size     
-        p3["radius"] = radius_5
-        p3["inset"] = -removal
-        #p3["holes"] = True         uncomment to include default holes
-        p3["m"] = "#"
-        pos1 = copy.deepcopy(pos)         
-        pos1[2] += thickness_bottom# + thickness_extra_middle/2
-        poss = []
-        pos11 = copy.deepcopy(pos1)
-        pos11[0] += -width_bottom_mm/2# - extra_middle/2
-        poss.append(pos11)
-        pos12 = copy.deepcopy(pos1)
-        pos12[0] += width_bottom_mm/2# + extra_middle/2
-        poss.append(pos12)
-        p3["pos"] = poss 
-        oobb_base.append_full(thing,**p3)
-    
+        
 
 
     
@@ -676,23 +596,14 @@ def get_stackable_3(thing, **kwargs):
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
-    if extra == "":
-        thickness_stack_interface = 1#1.5
-    else:
-        value = extra.replace("thickness_stack_interface_","")
-        thickness_stack_interface = float(value.replace("d","."))
-    #pos = copy.deepcopy(pos)
-    #pos[2] += -20
+    
 
-    extra_middle = 0.75
-    thickness_extra_middle = 1
 
     width_mm = width * 15
     height_mm = height * 15
     depth_mm = depth
 
-    width_bottom_mm = 1 * 15 - 2*thickness_wall
-    height_bottom_mm = 1 * 15 - 2*thickness_wall
+    
 
     radius_1 = 5
     radius_2 = radius_1 - thickness_wall
@@ -714,7 +625,7 @@ def get_stackable_3(thing, **kwargs):
         p3["shape"] = f"rounded_rectangle"    
         wid = width_mm
         hei = height_mm
-        dep = depth_mm - thickness_stack_interface
+        dep = depth_mm - thickness_stack_interface #depth_mm - thickness_stack_interface
         wid_top = wid
         hei_top = hei
         size = [wid, hei, dep]
@@ -723,141 +634,102 @@ def get_stackable_3(thing, **kwargs):
         #p3["holes"] = True         uncomment to include default holes
         #p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
-        pos1[2] += thickness_stack_interface+thickness_stack_interface
+        pos1[2] += thickness_stack_interface #thickness_stack_interface+thickness_stack_interface
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
         
+    
+
+
         #add cutout
         p4 = copy.deepcopy(p3)
         p4["type"] = "n"
         wid = wid - 2*thickness_wall
         hei = hei - 2*thickness_wall
-        dep = dep - thickness_extra_middle
+        dep = dep  - thickness_bottom
         size = [wid, hei, dep]
         p4["size"] = size     
         p4["radius"] = radius_2
         #p3["holes"] = True         uncomment to include default holes
         #p4["m"] = "#"
         pos1 = copy.deepcopy(pos)         
-        pos1[2] += thickness_stack_interface + thickness_stack_interface + thickness_stack_interface
+        pos1[2] += thickness_stack_interface + thickness_bottom
         p4["pos"] = pos1
         oobb_base.append_full(thing,**p4)
 
-    #add bottom inset        
-    if True:
-        for x in range(width):
-            for y in range(height):
+    #add joiner
+    if True:        
+        scalar = 1
+        width_bottom_mm = scalar * 15
+        height_bottom_mm = scalar * 15
+        width_count = int(width / scalar)
+        height_count = int(height / scalar)
+        for x in range(width_count):
+            for y in range(height_count):                
                 #add plate
-                p3 = copy.deepcopy(kwargs)
-                p3["type"] = "p"
-                p3["shape"] = f"rounded_rectangle"    
-                wid = width_bottom_mm - 2*thickness_wall - 2*clearance_inset_stacking
-                hei = height_bottom_mm - 2*thickness_wall - 2*clearance_inset_stacking
-                wid_bot = wid
-                hei_bot = hei
-                dep = thickness_stack_interface
-                size = [wid, hei, dep]
-                p3["size"] = size     
-                p3["radius"] = radius_3
-                #p3["holes"] = True         uncomment to include default holes
-                #p3["m"] = "#"
-                pos1 = copy.deepcopy(pos)         
-                pos1[0] += -((width-1)/2*15) + x*15
-                pos1[1] += -((height-1)/2*15) + y*15
-                pos1[2] += 0
-
-                p3["pos"] = pos1
-                oobb_base.append_full(thing,**p3)
-   
-                #add plate
-                removal = (clearance_inset_stacking*2 + thickness_wall*2)
+                removal = thickness_wall * 2 + clearance_inset_stacking * 2
                 p3 = copy.deepcopy(kwargs)
                 p3["type"] = "p"
                 p3["shape"] = f"rounded_rectangle_extra"    
-                wid = width_bottom_mm - removal
+                wid = width_bottom_mm - removal 
                 hei = height_bottom_mm - removal
-                dep = thickness_stack_interface
+                dep = thickness_bottom_angle_piece
                 size = [wid, hei, dep]
                 p3["size"] = size     
                 p3["radius"] = radius_3
-                p3["inset"] = -removal
+                p3["inset"] = inset_bottom *2
                 #p3["holes"] = True         uncomment to include default holes
                 #p3["m"] = "#"
-                pos2 = copy.deepcopy(pos1) 
-                pos2[2] += thickness_stack_interface        
-                p3["pos"] = pos2
+                pos1 = copy.deepcopy(pos) 
+                pos1[0] += -(((width-scalar)*15)/2)  + x * 15 * scalar
+                pos1[1] += -(((height-scalar)*15)/2) + y * 15 * scalar
+                pos1[2] += dep#thickness_stack_interface    
+                p3["pos"] = pos1
+                rot1 = copy.deepcopy(rot)
+                rot1[1] = 180
+                p3["rot"] = rot1
                 oobb_base.append_full(thing,**p3)
+                #add angle cutout
+                if True:
+                    p4 = copy.deepcopy(p3)
+                    p4["type"] = "n"
+                    size2 = copy.deepcopy(p3.get("size",[]))
+                    size2[0] += -2*thickness_wall
+                    size2[1] += -2*thickness_wall
+                    p4["size"] = size2     
+                    p4["radius"] = radius_4            
+                    p4["m"] = "#"
+                    #more complicated becaue of slicing a cone but part of thickness bottom so not needed
+                    #oobb_base.append_full(thing,**p4)
 
-                """
-                #add extra cutouts to get theough the joiing layer in the bottom
-                #add plate
-                p3 = copy.deepcopy(kwargs)
-                p3["type"] = "n"
-                p3["shape"] = f"rounded_rectangle"    
-                p3["radius"] = radius_3
-                wid = width_bottom_mm - 2*thickness_wall - extra_middle
-                hei = height_bottom_mm - 2*thickness_wall
-                wid_bot = wid
-                hei_bot = hei
-                dep = thickness_extra_middle
-                size = [wid, hei, dep]
-                p3["size"] = size     
-                p3["radius"] = radius_2
-                #p3["holes"] = True         uncomment to include default holes
-                p3["m"] = "#"
-                pos1 = copy.deepcopy(pos)         
-                pos1[2] += thickness_stack_interface + thickness_stack_interface +thickness_extra_middle/2
-                poss = []
-                pos11 = copy.deepcopy(pos1)
-                pos11[0] += -width_bottom_mm/2 - extra_middle/2
-                poss.append(pos11)
-                pos12 = copy.deepcopy(pos1)
-                pos12[0] += width_bottom_mm/2 + extra_middle/2
-                poss.append(pos12)
-                p3["pos"] = poss 
-                oobb_base.append_full(thing,**p3)
-
-                #add joiner to the top
+                #straight piece
                 p4 = copy.deepcopy(p3)
-                p4["type"] = "n"
-                wid = width_mm - removal
-                hei = height_mm - removal
-                dep = thickness_stack_interface
-                size = [wid, hei, dep]
-                p4["size"] = size     
-                pos1 = copy.deepcopy(pos)
-                pos1[2] += depth_mm        
-                p4["pos"] = pos1        
-                p4["m"] = ""
+                p4.pop("inset","")
+                size2 = copy.deepcopy(p3.get("size",[]))
+                size2[2] = thickness_bottom_straight_piece
+                p4["size"] = size2            
+                pos2 = copy.deepcopy(pos1)
+                pos2[2] += thickness_bottom_straight_piece
+                p4["pos"] = pos2
+                #p4["m"] = "#"
                 oobb_base.append_full(thing,**p4)
+                #cutout
+                if True:
+                    p5 = copy.deepcopy(p4)
+                    p5["type"] = "n"
+                    size2 = copy.deepcopy(p4.get("size",[]))
+                    size2[0] += -2*thickness_wall
+                    size2[1] += -2*thickness_wall
+                    size2[2] += -thickness_bottom + thickness_bottom_angle_piece + thickness_bottom
+                    pos3 = copy.deepcopy(pos2)
+                    pos3[2] += +thickness_bottom
+                    p5["pos"] = pos3
+                    p5["size"] = size2
+                    p5["radius"] = radius_5
+                    p5["m"] = "#"
+                    oobb_base.append_full(thing,**p5)
 
-
-                #add cutout
-                removal = (clearance_inset_stacking*2 + thickness_wall*2)
-                p3 = copy.deepcopy(kwargs)
-                p3["type"] = "n"
-                p3["shape"] = f"rounded_rectangle_extra"    
-                wid = width_bottom_mm - removal - 2*thickness_wall - extra_middle
-                hei = height_bottom_mm - removal - 2*thickness_wall 
-                dep = thickness_stack_interface
-                size = [wid, hei, dep]
-                p3["size"] = size     
-                p3["radius"] = radius_4
-                p3["inset"] = -removal
-                #p3["holes"] = True         uncomment to include default holes
-                p3["m"] = "#"
-                pos1 = copy.deepcopy(pos)         
-                pos1[2] += thickness_stack_interface + thickness_extra_middle/2
-                poss = []
-                pos11 = copy.deepcopy(pos1)
-                pos11[0] += -width_bottom_mm/2 - extra_middle/2
-                poss.append(pos11)
-                pos12 = copy.deepcopy(pos1)
-                pos12[0] += width_bottom_mm/2 + extra_middle/2
-                poss.append(pos12)
-                p3["pos"] = poss 
-                oobb_base.append_full(thing,**p3)
-                """
+        
 
 
     
@@ -883,7 +755,6 @@ def get_stackable_3(thing, **kwargs):
         p3["shape"] = f"oobb_slice"
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
-
 ###### utilities
 
 

@@ -25,106 +25,132 @@ thing:
       pos:
       - 0
       - 0
-      - 3
+      - 1.5
       r: 5
       shape: rounded_rectangle
       size:
       - 60
       - 30
-      - 15
+      - 16.5
       type: positive
       width: 4
   - - height: 2
       pos:
       - 0
       - 0
-      - 4
+      - 2.5
       r: 4.2
       shape: rounded_rectangle
       size:
       - 58.4
       - 28.4
-      - 14
+      - 15.5
       type: negative
       width: 4
   - - height: 2
-      inset: 2
+      inset: 1.0
       pos:
       - -15.0
       - 0
-      - 3
-      r: 3.95
-      rot:
-      - 0
-      - 180
-      - 0
-      shape: rounded_rectangle_extra
-      size:
-      - 27.9
-      - 27.9
-      - 3
-      type: positive
-      width: 4
-  - - height: 2
-      inset: 2
-      pos:
-      - 15.0
-      - 0
-      - 3
-      r: 3.95
-      rot:
-      - 0
-      - 180
-      - 0
-      shape: rounded_rectangle_extra
-      size:
-      - 27.9
-      - 27.9
-      - 3
-      type: positive
-      width: 4
-  - - height: 2
-      m: ''
-      pos:
-      - 0
-      - 0
-      - 18
+      - 0.5
       r: 4.2
-      shape: rounded_rectangle
+      rot:
+      - 0
+      - 180
+      - 0
+      shape: rounded_rectangle_extra
       size:
-      - 57.9
-      - 27.9
-      - 3
-      type: negative
+      - 28.4
+      - 28.4
+      - 0.5
+      type: positive
       width: 4
   - - height: 2
-      inset: -2.1
+      inset: 1.0
+      pos:
+      - 15.0
+      - 0
+      - 0.5
+      r: 4.2
+      rot:
+      - 0
+      - 180
+      - 0
+      shape: rounded_rectangle_extra
+      size:
+      - 28.4
+      - 28.4
+      - 0.5
+      type: positive
+      width: 4
+  - - height: 2
+      pos:
+      - -15.0
+      - 0
+      - 1.5
+      r: 4.2
+      rot:
+      - 0
+      - 180
+      - 0
+      shape: rounded_rectangle_extra
+      size:
+      - 28.4
+      - 28.4
+      - 1
+      type: positive
+      width: 4
+  - - height: 2
+      pos:
+      - 15.0
+      - 0
+      - 1.5
+      r: 4.2
+      rot:
+      - 0
+      - 180
+      - 0
+      shape: rounded_rectangle_extra
+      size:
+      - 28.4
+      - 28.4
+      - 1
+      type: positive
+      width: 4
+  - - height: 2
       m: '#'
       pos:
       - -15.0
       - 0
-      - 1
-      r: 2.3500000000000005
+      - 2.5
+      r: 2.6000000000000005
+      rot:
+      - 0
+      - 180
+      - 0
       shape: rounded_rectangle_extra
       size:
-      - 24.7
-      - 24.7
-      - 3
+      - 26.799999999999997
+      - 26.799999999999997
+      - 1.5
       type: negative
       width: 4
   - - height: 2
-      inset: -2.1
       m: '#'
       pos:
       - 15.0
       - 0
-      - 1
-      r: 2.3500000000000005
+      - 2.5
+      r: 2.6000000000000005
+      rot:
+      - 0
+      - 180
+      - 0
       shape: rounded_rectangle_extra
       size:
-      - 24.7
-      - 24.7
-      - 3
+      - 26.799999999999997
+      - 26.799999999999997
+      - 1.5
       type: negative
       width: 4
   components_objects:
@@ -135,14 +161,14 @@ thing:
     pos:
     - 0
     - 0
-    - 3
+    - 1.5
     radius: 5
     save_type: all
     shape: rounded_rectangle
     size:
     - 60
     - 30
-    - 15
+    - 16.5
     thickness: 18
     type: p
     width: 4
@@ -153,84 +179,108 @@ thing:
     pos:
     - 0
     - 0
-    - 4
+    - 2.5
     radius: 4.2
     save_type: all
     shape: rounded_rectangle
     size:
     - 58.4
     - 28.4
-    - 14
+    - 15.5
     thickness: 18
     type: n
     width: 4
   - height: 2
-    inset: 2
+    inset: 1.0
     modes:
     - 3dpr
     overwrite: true
     pos:
     - -15.0
     - 0
-    - 3
-    radius: 3.95
-    rot:
-    - 0
-    - 180
-    - 0
-    save_type: all
-    shape: rounded_rectangle_extra
-    size:
-    - 27.9
-    - 27.9
-    - 3
-    thickness: 18
-    type: p
-    width: 4
-  - height: 2
-    inset: 2
-    modes:
-    - 3dpr
-    overwrite: true
-    pos:
-    - 15.0
-    - 0
-    - 3
-    radius: 3.95
-    rot:
-    - 0
-    - 180
-    - 0
-    save_type: all
-    shape: rounded_rectangle_extra
-    size:
-    - 27.9
-    - 27.9
-    - 3
-    thickness: 18
-    type: p
-    width: 4
-  - height: 2
-    m: ''
-    modes:
-    - 3dpr
-    overwrite: true
-    pos:
-    - 0
-    - 0
-    - 18
+    - 0.5
     radius: 4.2
+    rot:
+    - 0
+    - 180
+    - 0
     save_type: all
-    shape: rounded_rectangle
+    shape: rounded_rectangle_extra
     size:
-    - 57.9
-    - 27.9
-    - 3
+    - 28.4
+    - 28.4
+    - 0.5
     thickness: 18
-    type: n
+    type: p
     width: 4
   - height: 2
-    inset: -2.1
+    inset: 1.0
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.0
+    - 0
+    - 0.5
+    radius: 4.2
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: all
+    shape: rounded_rectangle_extra
+    size:
+    - 28.4
+    - 28.4
+    - 0.5
+    thickness: 18
+    type: p
+    width: 4
+  - height: 2
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -15.0
+    - 0
+    - 1.5
+    radius: 4.2
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: all
+    shape: rounded_rectangle_extra
+    size:
+    - 28.4
+    - 28.4
+    - 1
+    thickness: 18
+    type: p
+    width: 4
+  - height: 2
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.0
+    - 0
+    - 1.5
+    radius: 4.2
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: all
+    shape: rounded_rectangle_extra
+    size:
+    - 28.4
+    - 28.4
+    - 1
+    thickness: 18
+    type: p
+    width: 4
+  - height: 2
     m: '#'
     modes:
     - 3dpr
@@ -238,19 +288,22 @@ thing:
     pos:
     - -15.0
     - 0
-    - 1
-    radius: 2.3500000000000005
+    - 2.5
+    radius: 2.6000000000000005
+    rot:
+    - 0
+    - 180
+    - 0
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 24.7
-    - 24.7
-    - 3
+    - 26.799999999999997
+    - 26.799999999999997
+    - 1.5
     thickness: 18
     type: n
     width: 4
   - height: 2
-    inset: -2.1
     m: '#'
     modes:
     - 3dpr
@@ -258,25 +311,30 @@ thing:
     pos:
     - 15.0
     - 0
-    - 1
-    radius: 2.3500000000000005
+    - 2.5
+    radius: 2.6000000000000005
+    rot:
+    - 0
+    - 180
+    - 0
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 24.7
-    - 24.7
-    - 3
+    - 26.799999999999997
+    - 26.799999999999997
+    - 1.5
     thickness: 18
     type: n
     width: 4
   components_string:
-  - rounded_rectangle_shape_p_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_60_30_15_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_4_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_58.4_28.4_14_size_4.2_radius
-  - rounded_rectangle_extra_shape_p_type_-15.0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.9_27.9_3_size_3.95_radius_2_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_p_type_15.0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_27.9_27.9_3_size_3.95_radius_2_inset_0_180_0_rot
-  - rounded_rectangle_shape_n_type_0_0_18_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_4.2_radius_57.9_27.9_3_size
-  - rounded_rectangle_extra_shape_n_type_-15.0_0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_24.7_24.7_3_size_2.3500000000000005_radius_-2.1_inset
-  - rounded_rectangle_extra_shape_n_type_15.0_0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_24.7_24.7_3_size_2.3500000000000005_radius_-2.1_inset
+  - rounded_rectangle_shape_p_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_60_30_16.5_size_5_radius
+  - rounded_rectangle_shape_n_type_0_0_2.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_58.4_28.4_15.5_size_4.2_radius
+  - rounded_rectangle_extra_shape_p_type_-15.0_0_0.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28.4_28.4_0.5_size_4.2_radius_1.0_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_p_type_15.0_0_0.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28.4_28.4_0.5_size_4.2_radius_1.0_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_p_type_-15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28.4_28.4_1_size_4.2_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_p_type_15.0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_28.4_28.4_1_size_4.2_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_-15.0_0_2.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_26.799999999999997_26.799999999999997_1.5_size_2.6000000000000005_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_15.0_0_2.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_2_height_18_thickness_26.799999999999997_26.799999999999997_1.5_size_2.6000000000000005_radius_0_180_0_rot
   description: oomlout oobb part tray stackable experiment stackable 2 4x2x18
   description_extra: ''
   description_main: 4_width_2_height_18_mm_depth
