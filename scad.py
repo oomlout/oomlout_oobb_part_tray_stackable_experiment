@@ -9,6 +9,8 @@ thickness_wall = 0.8
 thickness_base = 3
 thickness_bottom = 1
 
+thickness_layer = 0.25
+
 thickness_bottom_angle_piece = 0.5
 thickness_bottom_straight_piece = 1
 
@@ -659,7 +661,7 @@ def get_stackable_3(thing, **kwargs):
 
     #add joiner
     if True:        
-        scalar = 1
+        scalar = 2
         width_bottom_mm = scalar * 15
         height_bottom_mm = scalar * 15
         width_count = int(width / scalar)
@@ -685,6 +687,7 @@ def get_stackable_3(thing, **kwargs):
                 pos1[1] += -(((height-scalar)*15)/2) + y * 15 * scalar
                 pos1[2] += dep#thickness_stack_interface    
                 p3["pos"] = pos1
+                pos_main = copy.deepcopy(pos1)
                 rot1 = copy.deepcopy(rot)
                 rot1[1] = 180
                 p3["rot"] = rot1
@@ -725,11 +728,71 @@ def get_stackable_3(thing, **kwargs):
                     pos3[2] += +thickness_bottom
                     p5["pos"] = pos3
                     p5["size"] = size2
-                    p5["radius"] = radius_5
-                    p5["m"] = "#"
+                    p5["radius"] = radius_4
+                    #p5["m"] = "#"
                     oobb_base.append_full(thing,**p5)
 
-        
+            #add sawtooth for overhangs
+                if True:  
+                    pass  
+                    width_saw_tooth = 1
+                    height_saw_tooth = 1.75
+                    repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
+                    repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
+                    for x in range(repeats_width):                                                   
+                        p3 = copy.deepcopy(kwargs)
+                        p3["type"] = "n"
+                        p3["shape"] = f"oobb_cube"    
+                        wid = width_saw_tooth                        
+                        hei = height_saw_tooth
+                        if x == 1 or x == repeats_width - 2:
+                            hei = height_saw_tooth * 2
+                        #if x == 0 or x == repeats_width - 1:
+                        #    hei = height_saw_tooth * 4                        
+                        dep = thickness_layer
+                        size = [wid, hei, dep]
+                        p3["size"] = size                                 
+                        #p3["holes"] = True         uncomment to include default holes
+                        p3["m"] = "#"
+                        pos1 = copy.deepcopy(pos_main)                         
+                        pos1[0] += -((width_bottom_mm)/2)  + (x+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                        pos1[2] = thickness_stack_interface
+                        poss = []
+                        pos11 = copy.deepcopy(pos1)
+                        pos11[1] += -((height_bottom_mm)/2)
+                        pos12 = copy.deepcopy(pos1)
+                        pos12[1] += ((height_bottom_mm)/2)
+                        poss.append(pos11)
+                        poss.append(pos12)
+                        p3["pos"] = poss
+                        oobb_base.append_full(thing,**p3)
+                    for x in range(repeats_height):                                                   
+                        p3 = copy.deepcopy(kwargs)
+                        p3["type"] = "n"
+                        p3["shape"] = f"oobb_cube"    
+                        hei = width_saw_tooth                        
+                        wid = height_saw_tooth
+                        if x == 1 or x == repeats_width - 2:
+                            wid = height_saw_tooth * 2
+                        if x == 0 or x == repeats_width - 1:
+                            hei = height_saw_tooth * 4
+                        dep = thickness_layer
+                        size = [wid, hei, dep]
+                        p3["size"] = size                                 
+                        #p3["holes"] = True         uncomment to include default holes
+                        p3["m"] = "#"
+                        pos1 = copy.deepcopy(pos_main)                         
+                        pos1[1] += -((width_bottom_mm)/2)  + (x+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                        pos1[2] = thickness_stack_interface
+                        poss = []
+                        pos11 = copy.deepcopy(pos1)
+                        pos11[0] += -((height_bottom_mm)/2)
+                        pos12 = copy.deepcopy(pos1)
+                        pos12[0] += ((height_bottom_mm)/2)
+                        poss.append(pos11)
+                        poss.append(pos12)
+                        p3["pos"] = poss
+                        oobb_base.append_full(thing,**p3)                            
 
 
     
