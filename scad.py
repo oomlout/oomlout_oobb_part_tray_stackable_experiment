@@ -30,14 +30,14 @@ def make_scad(**kwargs):
 
     # save_type variables
     if True:
-        #filter = ""
-        filter = "stackable_3"
+        filter = ""
+        #filter = "stackable_3"
 
         kwargs["save_type"] = "none"
-        kwargs["save_type"] = "all"
+        #kwargs["save_type"] = "all"
         
         navigation = False
-        #navigation = True    
+        navigation = True    
 
         kwargs["overwrite"] = True
         
