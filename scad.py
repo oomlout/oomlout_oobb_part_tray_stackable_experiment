@@ -11,8 +11,8 @@ thickness_bottom = 2
 
 thickness_layer = 0.25
 
-thickness_bottom_angle_piece = 0.5
-thickness_bottom_straight_piece = 1
+thickness_bottom_angle_piece = 1
+thickness_bottom_straight_piece = 2
 
 thickness_stack_interface = thickness_bottom_angle_piece + thickness_bottom_straight_piece
 
@@ -31,13 +31,13 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        filter = "stackable_3"
+        #filter = "stackable_3"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
         
         navigation = False
-        #navigation = True    
+        navigation = True    
 
         kwargs["overwrite"] = True
         
@@ -661,6 +661,15 @@ def get_stackable_3(thing, **kwargs):
         #p4["m"] = "#"
         oobb_base.append_full(thing,**p4)
 
+        p5 = copy.deepcopy(p4)
+        p5["type"] = "n"
+        p5["size"][0] = width_mm - thickness_wall
+        p5["size"][1] = height_mm - thickness_wall
+        p5["radius"] = radius_1 - thickness_wall/2
+        #p5["m"] = "#"
+        p5["pos"][2] = depth - thickness_layer
+        oobb_base.append_full(thing,**p5)
+
 
 
 
@@ -758,9 +767,12 @@ def get_stackable_3(thing, **kwargs):
                         pass  
                         thickness_sawtooth = thickness_layer * 2
                         width_saw_tooth = 0.6
+                        width_gap_saw_tooth = 0.2
                         height_saw_tooth = 3.5
-                        repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
-                        repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
+                        #repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
+                        #repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
+                        repeats_width = int(width_bottom_mm / (width_saw_tooth + width_gap_saw_tooth))
+                        repeats_height = int(height_bottom_mm / (width_saw_tooth + width_gap_saw_tooth))
                         for xx in range(end_skip,repeats_width-end_skip):                                                   
                             p3 = copy.deepcopy(kwargs)
                             p3["type"] = "n"
@@ -768,8 +780,8 @@ def get_stackable_3(thing, **kwargs):
                             wid = width_saw_tooth                        
                             hei = height_saw_tooth
                             if xx == 2 or xx == repeats_height - 3:
-                                hei = height_saw_tooth * 1.5
-                                wid = width_saw_tooth * 1                        
+                                #hei = height_saw_tooth * 1.5
+                                #wid = width_saw_tooth * 1                        
                                 pass
                             if xx == 1 or xx == repeats_width - 2:
                                 #hei = 1
@@ -785,7 +797,8 @@ def get_stackable_3(thing, **kwargs):
                             #p3["holes"] = True         uncomment to include default holes
                             p3["m"] = "#"
                             pos1 = copy.deepcopy(pos_main)                         
-                            pos1[0] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            #pos1[0] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            pos1[0] += -((width_bottom_mm)/2)  + (xx+1) * (width_saw_tooth + width_gap_saw_tooth) - width_saw_tooth                                                 
                             pos1[2] = thickness_stack_interface
                             poss = []
                             pos11 = copy.deepcopy(pos1)
@@ -803,16 +816,16 @@ def get_stackable_3(thing, **kwargs):
                             hei = width_saw_tooth                        
                             wid = height_saw_tooth
                             if xx == 2 or xx == repeats_height - 3:
-                                hei = width_saw_tooth * 1
-                                wid = height_saw_tooth * 2
+                                #hei = width_saw_tooth * 1
+                                #wid = height_saw_tooth * 1.5
                                 pass
                             if xx == 1 or xx == repeats_width - 2:
-                                hei = width_saw_tooth * 1
-                                wid = height_saw_tooth * 3
+                                #hei = width_saw_tooth * 1
+                                #wid = height_saw_tooth * 3
                                 pass
                             if xx == 0 or xx == repeats_width - 1:
-                                hei = width_saw_tooth * 1.6
-                                wid = height_saw_tooth * 4.2
+                                #hei = width_saw_tooth * 1.6
+                                #wid = height_saw_tooth * 3
                                 pass
                             dep = thickness_sawtooth
                             size = [wid, hei, dep]
@@ -820,7 +833,8 @@ def get_stackable_3(thing, **kwargs):
                             #p3["holes"] = True         uncomment to include default holes
                             p3["m"] = "#"
                             pos1 = copy.deepcopy(pos_main)                         
-                            pos1[1] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            #pos1[1] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            pos1[1] += -((width_bottom_mm)/2)  + (xx+1) * (width_saw_tooth + width_gap_saw_tooth) - width_saw_tooth                                                 
                             pos1[2] = thickness_stack_interface
                             poss = []
                             pos11 = copy.deepcopy(pos1)

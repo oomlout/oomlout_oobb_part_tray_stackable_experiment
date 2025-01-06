@@ -58,7 +58,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 18
     type: p
@@ -73,14 +73,14 @@ thing:
     - 0
     - 0
     - 3
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 18
     type: n
     width: 3.9066666666666663
   components_string:
-  - oobb_plate_shape_p_type_18_depth_none_save_type_true_overwrite_'3dpr'_modes_4.066666666666666_width_2.566666666666667_height_18_thickness
-  - oobb_plate_shape_n_type_15_depth_0_0_3_pos_none_save_type_true_overwrite_'3dpr'_modes_3.9066666666666663_width_2.4066666666666667_height_18_thickness
+  - oobb_plate_shape_p_type_18_depth_all_save_type_true_overwrite_'3dpr'_modes_4.066666666666666_width_2.566666666666667_height_18_thickness
+  - oobb_plate_shape_n_type_15_depth_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_3.9066666666666663_width_2.4066666666666667_height_18_thickness
   description: oomlout oobb part tray stackable experiment base 4x2.5x18
   description_extra: ''
   description_main: 4_width_2.5_height_18_mm_depth
