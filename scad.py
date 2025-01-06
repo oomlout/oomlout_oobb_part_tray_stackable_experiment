@@ -7,7 +7,7 @@ import os
 
 thickness_wall = 1.2 #1.5 #0.8
 thickness_base = 3
-thickness_bottom = 2
+thickness_bottom = 1
 
 thickness_layer = 0.25
 
@@ -31,7 +31,7 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        #filter = "stackable_3"
+        filter = "stackable_3"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
@@ -766,8 +766,8 @@ def get_stackable_3(thing, **kwargs):
                         end_skip = 2
                         pass  
                         thickness_sawtooth = thickness_layer * 2
-                        width_saw_tooth = 0.6
-                        width_gap_saw_tooth = 0.2
+                        width_saw_tooth = 0.2
+                        width_gap_saw_tooth = 0.6
                         height_saw_tooth = 3.5
                         #repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
                         #repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
