@@ -25,13 +25,27 @@ thing:
       pos:
       - 0
       - 0
-      - 1
+      - 1.25
       r: 5
       shape: rounded_rectangle
       size:
       - 30
       - 30
-      - 17
+      - 16.75
+      type: positive
+      width: 2
+  - - height: 2
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 1
+      r: 4.4
+      shape: rounded_rectangle
+      size:
+      - 30.6
+      - 30.6
+      - 17.0
       type: positive
       width: 2
   - - height: 2
@@ -44,7 +58,7 @@ thing:
       size:
       - 27.6
       - 27.6
-      - 15
+      - 14.75
       type: negative
       width: 2
   - - height: 2
@@ -1303,14 +1317,33 @@ thing:
     pos:
     - 0
     - 0
-    - 1
+    - 1.25
     radius: 5
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 30
     - 30
-    - 17
+    - 16.75
+    thickness: 18
+    type: p
+    width: 2
+  - height: 2
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 1
+    radius: 4.4
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 30.6
+    - 30.6
+    - 17.0
     thickness: 18
     type: p
     width: 2
@@ -1323,12 +1356,12 @@ thing:
     - 0
     - 3
     radius: 3.8
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 27.6
     - 27.6
-    - 15
+    - 14.75
     thickness: 18
     type: n
     width: 2
@@ -1346,7 +1379,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: rounded_rectangle_extra
     size:
     - 27.6
@@ -1368,7 +1401,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: rounded_rectangle_extra
     size:
     - 27.6
@@ -1390,7 +1423,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: rounded_rectangle_extra
     size:
     - 25.200000000000003
@@ -1408,7 +1441,7 @@ thing:
     - -12.0
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1426,7 +1459,7 @@ thing:
     - -12.0
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1444,7 +1477,7 @@ thing:
     - -10.799999999999999
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1462,7 +1495,7 @@ thing:
     - -10.799999999999999
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1480,7 +1513,7 @@ thing:
     - -9.6
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1498,7 +1531,7 @@ thing:
     - -9.6
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1516,7 +1549,7 @@ thing:
     - -8.4
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1534,7 +1567,7 @@ thing:
     - -8.4
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1552,7 +1585,7 @@ thing:
     - -7.199999999999999
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1570,7 +1603,7 @@ thing:
     - -7.199999999999999
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1588,7 +1621,7 @@ thing:
     - -6.0
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1606,7 +1639,7 @@ thing:
     - -6.0
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1624,7 +1657,7 @@ thing:
     - -4.800000000000001
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1642,7 +1675,7 @@ thing:
     - -4.800000000000001
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1660,7 +1693,7 @@ thing:
     - -3.6
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1678,7 +1711,7 @@ thing:
     - -3.6
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1696,7 +1729,7 @@ thing:
     - -2.400000000000001
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1714,7 +1747,7 @@ thing:
     - -2.400000000000001
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1732,7 +1765,7 @@ thing:
     - -1.2000000000000015
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1750,7 +1783,7 @@ thing:
     - -1.2000000000000015
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1768,7 +1801,7 @@ thing:
     - -3.3306690738754696e-16
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1786,7 +1819,7 @@ thing:
     - -3.3306690738754696e-16
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1804,7 +1837,7 @@ thing:
     - 1.2000000000000006
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1822,7 +1855,7 @@ thing:
     - 1.2000000000000006
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1840,7 +1873,7 @@ thing:
     - 2.4
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1858,7 +1891,7 @@ thing:
     - 2.4
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1876,7 +1909,7 @@ thing:
     - 3.599999999999999
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1894,7 +1927,7 @@ thing:
     - 3.599999999999999
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1912,7 +1945,7 @@ thing:
     - 4.799999999999999
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1930,7 +1963,7 @@ thing:
     - 4.799999999999999
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1948,7 +1981,7 @@ thing:
     - 5.999999999999998
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1966,7 +1999,7 @@ thing:
     - 5.999999999999998
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -1984,7 +2017,7 @@ thing:
     - 7.200000000000001
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2002,7 +2035,7 @@ thing:
     - 7.200000000000001
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2020,7 +2053,7 @@ thing:
     - 8.4
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2038,7 +2071,7 @@ thing:
     - 8.4
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2056,7 +2089,7 @@ thing:
     - 9.6
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2074,7 +2107,7 @@ thing:
     - 9.6
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2092,7 +2125,7 @@ thing:
     - 10.799999999999999
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2110,7 +2143,7 @@ thing:
     - 10.799999999999999
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2128,7 +2161,7 @@ thing:
     - 11.999999999999998
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2146,7 +2179,7 @@ thing:
     - 11.999999999999998
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 0.6
@@ -2164,7 +2197,7 @@ thing:
     - -15.0
     - -12.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 7.0
@@ -2182,7 +2215,7 @@ thing:
     - 15.0
     - -12.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 7.0
@@ -2200,7 +2233,7 @@ thing:
     - -15.0
     - -10.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2218,7 +2251,7 @@ thing:
     - 15.0
     - -10.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2236,7 +2269,7 @@ thing:
     - -15.0
     - -9.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2254,7 +2287,7 @@ thing:
     - 15.0
     - -9.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2272,7 +2305,7 @@ thing:
     - -15.0
     - -8.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2290,7 +2323,7 @@ thing:
     - 15.0
     - -8.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2308,7 +2341,7 @@ thing:
     - -15.0
     - -7.199999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2326,7 +2359,7 @@ thing:
     - 15.0
     - -7.199999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2344,7 +2377,7 @@ thing:
     - -15.0
     - -6.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2362,7 +2395,7 @@ thing:
     - 15.0
     - -6.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2380,7 +2413,7 @@ thing:
     - -15.0
     - -4.800000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2398,7 +2431,7 @@ thing:
     - 15.0
     - -4.800000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2416,7 +2449,7 @@ thing:
     - -15.0
     - -3.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2434,7 +2467,7 @@ thing:
     - 15.0
     - -3.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2452,7 +2485,7 @@ thing:
     - -15.0
     - -2.400000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2470,7 +2503,7 @@ thing:
     - 15.0
     - -2.400000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2488,7 +2521,7 @@ thing:
     - -15.0
     - -1.2000000000000015
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2506,7 +2539,7 @@ thing:
     - 15.0
     - -1.2000000000000015
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2524,7 +2557,7 @@ thing:
     - -15.0
     - -3.3306690738754696e-16
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2542,7 +2575,7 @@ thing:
     - 15.0
     - -3.3306690738754696e-16
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2560,7 +2593,7 @@ thing:
     - -15.0
     - 1.2000000000000006
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2578,7 +2611,7 @@ thing:
     - 15.0
     - 1.2000000000000006
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2596,7 +2629,7 @@ thing:
     - -15.0
     - 2.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2614,7 +2647,7 @@ thing:
     - 15.0
     - 2.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2632,7 +2665,7 @@ thing:
     - -15.0
     - 3.599999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2650,7 +2683,7 @@ thing:
     - 15.0
     - 3.599999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2668,7 +2701,7 @@ thing:
     - -15.0
     - 4.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2686,7 +2719,7 @@ thing:
     - 15.0
     - 4.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2704,7 +2737,7 @@ thing:
     - -15.0
     - 5.999999999999998
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2722,7 +2755,7 @@ thing:
     - 15.0
     - 5.999999999999998
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2740,7 +2773,7 @@ thing:
     - -15.0
     - 7.200000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2758,7 +2791,7 @@ thing:
     - 15.0
     - 7.200000000000001
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2776,7 +2809,7 @@ thing:
     - -15.0
     - 8.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2794,7 +2827,7 @@ thing:
     - 15.0
     - 8.4
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2812,7 +2845,7 @@ thing:
     - -15.0
     - 9.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2830,7 +2863,7 @@ thing:
     - 15.0
     - 9.6
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2848,7 +2881,7 @@ thing:
     - -15.0
     - 10.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2866,7 +2899,7 @@ thing:
     - 15.0
     - 10.799999999999999
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 3.5
@@ -2884,7 +2917,7 @@ thing:
     - -15.0
     - 11.999999999999998
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 7.0
@@ -2902,7 +2935,7 @@ thing:
     - 15.0
     - 11.999999999999998
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 7.0
@@ -2920,7 +2953,7 @@ thing:
     - -15.0
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 4.5
@@ -2938,7 +2971,7 @@ thing:
     - 15.0
     - -15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 4.5
@@ -2956,7 +2989,7 @@ thing:
     - -15.0
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 4.5
@@ -2974,7 +3007,7 @@ thing:
     - 15.0
     - 15.0
     - 1
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 4.5
@@ -2992,7 +3025,7 @@ thing:
     - -15.0
     - -15.0
     - 1.25
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 2.5
@@ -3010,7 +3043,7 @@ thing:
     - 15.0
     - -15.0
     - 1.25
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 2.5
@@ -3028,7 +3061,7 @@ thing:
     - -15.0
     - 15.0
     - 1.25
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 2.5
@@ -3046,7 +3079,7 @@ thing:
     - 15.0
     - 15.0
     - 1.25
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 2.5
@@ -3056,103 +3089,104 @@ thing:
     type: n
     width: 2
   components_string:
-  - rounded_rectangle_shape_p_type_0_0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30_30_17_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_15_size_3.8_radius
-  - rounded_rectangle_extra_shape_p_type_0.0_0.0_0.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_0.5_size_3.8_radius_1.0_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_p_type_0.0_0.0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_1_size_3.8_radius_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_0.0_0.0_3.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_25.200000000000003_25.200000000000003_1.5_size_2.5999999999999996_radius_0_180_0_rot
-  - oobb_cube_shape_n_type_-12.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
-  - oobb_cube_shape_n_type_-12.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
-  - oobb_cube_shape_n_type_-10.799999999999999_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-10.799999999999999_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-9.6_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-9.6_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-8.4_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-8.4_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-7.199999999999999_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-7.199999999999999_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-6.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-6.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-4.800000000000001_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-4.800000000000001_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-3.6_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-3.6_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-2.400000000000001_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-2.400000000000001_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-1.2000000000000015_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-1.2000000000000015_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-3.3306690738754696e-16_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_-3.3306690738754696e-16_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_1.2000000000000006_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_1.2000000000000006_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_2.4_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_2.4_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_3.599999999999999_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_3.599999999999999_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_4.799999999999999_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_4.799999999999999_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_5.999999999999998_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_5.999999999999998_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_7.200000000000001_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_7.200000000000001_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_8.4_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_8.4_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_9.6_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_9.6_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_10.799999999999999_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_10.799999999999999_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
-  - oobb_cube_shape_n_type_11.999999999999998_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
-  - oobb_cube_shape_n_type_11.999999999999998_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-12.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-12.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-10.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-10.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-9.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-9.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-8.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-8.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-7.199999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-7.199999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-6.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-6.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-4.800000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-4.800000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-3.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-3.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-2.400000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-2.400000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-1.2000000000000015_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-1.2000000000000015_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-3.3306690738754696e-16_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_-3.3306690738754696e-16_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_1.2000000000000006_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_1.2000000000000006_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_2.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_2.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_3.599999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_3.599999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_4.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_4.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_5.999999999999998_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_5.999999999999998_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_7.200000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_7.200000000000001_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_8.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_8.4_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_9.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_9.6_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_10.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_10.799999999999999_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_11.999999999999998_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
-  - oobb_cube_shape_n_type_15.0_11.999999999999998_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
-  - oobb_cube_shape_n_type_15.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
-  - oobb_cube_shape_n_type_-15.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
-  - oobb_cube_shape_n_type_15.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
-  - oobb_cube_shape_n_type_-15.0_-15.0_1.25_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
-  - oobb_cube_shape_n_type_15.0_-15.0_1.25_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
-  - oobb_cube_shape_n_type_-15.0_15.0_1.25_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
-  - oobb_cube_shape_n_type_15.0_15.0_1.25_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
+  - rounded_rectangle_shape_p_type_0_0_1.25_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30_30_16.75_size_5_radius
+  - rounded_rectangle_shape_p_type_0_0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30.6_30.6_17.0_size_4.4_radius
+  - rounded_rectangle_shape_n_type_0_0_3_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_14.75_size_3.8_radius
+  - rounded_rectangle_extra_shape_p_type_0.0_0.0_0.5_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_0.5_size_3.8_radius_1.0_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_p_type_0.0_0.0_1.5_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_1_size_3.8_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_0.0_0.0_3.5_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_25.200000000000003_25.200000000000003_1.5_size_2.5999999999999996_radius_0_180_0_rot
+  - oobb_cube_shape_n_type_-12.0_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
+  - oobb_cube_shape_n_type_-12.0_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
+  - oobb_cube_shape_n_type_-10.799999999999999_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-10.799999999999999_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-9.6_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-9.6_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-8.4_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-8.4_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-7.199999999999999_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-7.199999999999999_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-6.0_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-6.0_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-4.800000000000001_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-4.800000000000001_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-3.6_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-3.6_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-2.400000000000001_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-2.400000000000001_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-1.2000000000000015_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-1.2000000000000015_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-3.3306690738754696e-16_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_-3.3306690738754696e-16_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_1.2000000000000006_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_1.2000000000000006_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_2.4_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_2.4_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_3.599999999999999_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_3.599999999999999_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_4.799999999999999_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_4.799999999999999_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_5.999999999999998_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_5.999999999999998_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_7.200000000000001_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_7.200000000000001_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_8.4_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_8.4_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_9.6_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_9.6_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_10.799999999999999_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_10.799999999999999_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_3.5_0.25_size
+  - oobb_cube_shape_n_type_11.999999999999998_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
+  - oobb_cube_shape_n_type_11.999999999999998_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_0.6_5.25_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-12.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-12.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-10.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-10.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-9.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-9.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-8.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-8.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-7.199999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-7.199999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-6.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-6.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-4.800000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-4.800000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-3.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-3.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-2.400000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-2.400000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-1.2000000000000015_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-1.2000000000000015_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-3.3306690738754696e-16_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_-3.3306690738754696e-16_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_1.2000000000000006_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_1.2000000000000006_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_2.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_2.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_3.599999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_3.599999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_4.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_4.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_5.999999999999998_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_5.999999999999998_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_7.200000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_7.200000000000001_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_8.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_8.4_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_9.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_9.6_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_10.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_10.799999999999999_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_3.5_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_11.999999999999998_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
+  - oobb_cube_shape_n_type_15.0_11.999999999999998_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_7.0_0.6_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
+  - oobb_cube_shape_n_type_15.0_-15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
+  - oobb_cube_shape_n_type_-15.0_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
+  - oobb_cube_shape_n_type_15.0_15.0_1_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_4.5_4.5_0.25_size
+  - oobb_cube_shape_n_type_-15.0_-15.0_1.25_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
+  - oobb_cube_shape_n_type_15.0_-15.0_1.25_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
+  - oobb_cube_shape_n_type_-15.0_15.0_1.25_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
+  - oobb_cube_shape_n_type_15.0_15.0_1.25_pos_none_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_2.5_2.5_0.25_size
   description: oomlout oobb part tray stackable experiment stackable 3 2x2x18
   description_extra: ''
   description_main: 2_width_2_height_18_mm_depth
