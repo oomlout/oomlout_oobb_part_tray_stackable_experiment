@@ -6,8 +6,6 @@ Oomlout Oobb Part Tray Stackable Experiment
 
 
 
-## corel working
-![](working_600.png) 
 
 
 
