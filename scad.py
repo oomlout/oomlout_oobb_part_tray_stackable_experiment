@@ -19,7 +19,7 @@ thickness_stack_interface = thickness_bottom_angle_piece + thickness_bottom_stra
 thickness_extra_middle = 0.75
 extra_middle = 1.5
 #set in routine now thickness_stack_interface = 1.5
-clearance_inset_stacking = 0#0.25#0#0.5
+clearance_inset_stacking = 0.2#0#0.25#0#0.5
 inset_bottom = 0.5 #1.5
 
 def main(**kwargs):
