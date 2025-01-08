@@ -64,13 +64,13 @@ thing:
       pos:
       - 0
       - 0
-      - 4.0
+      - 4.5
       r: 3.8
       shape: rounded_rectangle
       size:
       - 57.6
       - 57.6
-      - 14.0
+      - 13.5
       type: negative
       width: 4
   - - height: 4
@@ -112,7 +112,7 @@ thing:
       pos:
       - -15.0
       - -15.0
-      - 4
+      - 4.5
       r: 2.3999999999999995
       rot:
       - 0
@@ -122,7 +122,7 @@ thing:
       size:
       - 24.8
       - 24.8
-      - 3
+      - 3.0
       type: negative
       width: 4
   - - - height: 4
@@ -1984,7 +1984,7 @@ thing:
       pos:
       - -15.0
       - 15.0
-      - 4
+      - 4.5
       r: 2.3999999999999995
       rot:
       - 0
@@ -1994,7 +1994,7 @@ thing:
       size:
       - 24.8
       - 24.8
-      - 3
+      - 3.0
       type: negative
       width: 4
   - - - height: 4
@@ -3856,7 +3856,7 @@ thing:
       pos:
       - 15.0
       - -15.0
-      - 4
+      - 4.5
       r: 2.3999999999999995
       rot:
       - 0
@@ -3866,7 +3866,7 @@ thing:
       size:
       - 24.8
       - 24.8
-      - 3
+      - 3.0
       type: negative
       width: 4
   - - - height: 4
@@ -5728,7 +5728,7 @@ thing:
       pos:
       - 15.0
       - 15.0
-      - 4
+      - 4.5
       r: 2.3999999999999995
       rot:
       - 0
@@ -5738,7 +5738,7 @@ thing:
       size:
       - 24.8
       - 24.8
-      - 3
+      - 3.0
       type: negative
       width: 4
   - - - height: 4
@@ -7623,14 +7623,14 @@ thing:
     pos:
     - 0
     - 0
-    - 4.0
+    - 4.5
     radius: 3.8
     save_type: all
     shape: rounded_rectangle
     size:
     - 57.6
     - 57.6
-    - 14.0
+    - 13.5
     thickness: 18
     type: n
     width: 4
@@ -7686,7 +7686,7 @@ thing:
     pos:
     - -15.0
     - -15.0
-    - 4
+    - 4.5
     radius: 2.3999999999999995
     rot:
     - 0
@@ -7697,7 +7697,7 @@ thing:
     size:
     - 24.8
     - 24.8
-    - 3
+    - 3.0
     thickness: 18
     type: n
     width: 4
@@ -10273,7 +10273,7 @@ thing:
     pos:
     - -15.0
     - 15.0
-    - 4
+    - 4.5
     radius: 2.3999999999999995
     rot:
     - 0
@@ -10284,7 +10284,7 @@ thing:
     size:
     - 24.8
     - 24.8
-    - 3
+    - 3.0
     thickness: 18
     type: n
     width: 4
@@ -12860,7 +12860,7 @@ thing:
     pos:
     - 15.0
     - -15.0
-    - 4
+    - 4.5
     radius: 2.3999999999999995
     rot:
     - 0
@@ -12871,7 +12871,7 @@ thing:
     size:
     - 24.8
     - 24.8
-    - 3
+    - 3.0
     thickness: 18
     type: n
     width: 4
@@ -15447,7 +15447,7 @@ thing:
     pos:
     - 15.0
     - 15.0
-    - 4
+    - 4.5
     radius: 2.3999999999999995
     rot:
     - 0
@@ -15458,7 +15458,7 @@ thing:
     size:
     - 24.8
     - 24.8
-    - 3
+    - 3.0
     thickness: 18
     type: n
     width: 4
@@ -17986,10 +17986,10 @@ thing:
   - rounded_rectangle_shape_p_type_0_0_3.25_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_60_60_14.75_size_5_radius
   - rounded_rectangle_shape_p_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_58.8_58.8_0.25_size_3.8_radius
   - rounded_rectangle_shape_n_type_0_0_17.75_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_58.8_58.8_0.25_size_4.4_radius
-  - rounded_rectangle_shape_n_type_0_0_4.0_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_57.6_57.6_14.0_size_3.8_radius
+  - rounded_rectangle_shape_n_type_0_0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_57.6_57.6_13.5_size_3.8_radius
   - rounded_rectangle_extra_shape_p_type_-15.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_1_size_3.5999999999999996_radius_1.0_inset_0_180_0_rot
   - rounded_rectangle_extra_shape_p_type_-15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_2_size_3.5999999999999996_radius_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_-15.0_-15.0_4_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3_size_2.3999999999999995_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_-15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3.0_size_2.3999999999999995_radius_0_180_0_rot
   - oobb_cube_shape_n_type_-27.799999999999997_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_-27.799999999999997_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_-27.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
@@ -18132,7 +18132,7 @@ thing:
   - oobb_cube_shape_n_type_0.0_0.0_3.25_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.25_size
   - rounded_rectangle_extra_shape_p_type_-15.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_1_size_3.5999999999999996_radius_1.0_inset_0_180_0_rot
   - rounded_rectangle_extra_shape_p_type_-15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_2_size_3.5999999999999996_radius_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_-15.0_15.0_4_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3_size_2.3999999999999995_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_-15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3.0_size_2.3999999999999995_radius_0_180_0_rot
   - oobb_cube_shape_n_type_-27.799999999999997_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_-27.799999999999997_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_-27.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
@@ -18275,7 +18275,7 @@ thing:
   - oobb_cube_shape_n_type_0.0_30.0_3.25_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.25_size
   - rounded_rectangle_extra_shape_p_type_15.0_-15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_1_size_3.5999999999999996_radius_1.0_inset_0_180_0_rot
   - rounded_rectangle_extra_shape_p_type_15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_2_size_3.5999999999999996_radius_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_15.0_-15.0_4_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3_size_2.3999999999999995_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3.0_size_2.3999999999999995_radius_0_180_0_rot
   - oobb_cube_shape_n_type_2.200000000000001_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_2.200000000000001_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_3.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
@@ -18418,7 +18418,7 @@ thing:
   - oobb_cube_shape_n_type_30.0_0.0_3.25_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.25_size
   - rounded_rectangle_extra_shape_p_type_15.0_15.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_1_size_3.5999999999999996_radius_1.0_inset_0_180_0_rot
   - rounded_rectangle_extra_shape_p_type_15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_2_size_3.5999999999999996_radius_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_15.0_15.0_4_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3_size_2.3999999999999995_radius_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_24.8_24.8_3.0_size_2.3999999999999995_radius_0_180_0_rot
   - oobb_cube_shape_n_type_2.200000000000001_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_2.200000000000001_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
   - oobb_cube_shape_n_type_3.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.2_3.5_0.5_size
