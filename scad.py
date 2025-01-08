@@ -10,6 +10,7 @@ thickness_base = 3
 thickness_bottom = 1.5
 
 thickness_layer = 0.25
+thickness_baseplate_tolerance = 0.5
 
 thickness_bottom_angle_piece = 1
 thickness_bottom_straight_piece = 2
@@ -31,10 +32,10 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        filter = "stackable_3"
+        filter = "baseplate"
 
         kwargs["save_type"] = "none"
-        kwargs["save_type"] = "all"
+        #kwargs["save_type"] = "all"
         
         navigation = False
         navigation = True    
@@ -140,6 +141,27 @@ def make_scad(**kwargs):
             part["name"] = name
             parts.append(part)
 
+        #baseplate
+        sizes = []
+        size = [4,4,thickness_stack_interface-0.5]
+        sizes.append(size)
+        for size in sizes:
+            name = "baseplate"
+            extra = ""
+            wid = size[0]
+            hei = size[1]
+            dep = size[2]
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = wid
+            p3["height"] = hei
+            p3["thickness"] = dep
+            if extra != "":
+                p3["extra"] = extra
+            part["kwargs"] = p3
+            part["name"] = name
+            parts.append(part)
+
     #make the parts
     if True:
         for part in parts:
@@ -220,6 +242,106 @@ def get_base(thing, **kwargs):
     p3["pos"] = pos1
     #oobb_base.append_full(thing,**p3)
 
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+def get_baseplate(thing, **kwargs):
+    global thickness_wall, thickness_base, thickness_stack_interface, clearance_inset_stacking, thickness_stack_interface   
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+
+
+    width_mm = width * 15
+    height_mm = height * 15
+    depth_mm = depth
+
+    
+
+    radius_1 = 5
+    radius_2 = radius_1 - thickness_wall
+    radius_3 = radius_2 - clearance_inset_stacking
+    radius_4 = radius_3 - thickness_wall
+    radius_5 = radius_4 - thickness_wall
+
+    wid_top = 0
+    hei_top = 0
+    wid_bot  =0
+    hei_bot = 0
+
+    #base tray
+    if True:
+    #if False:
+        #add plate minus one layer
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"rounded_rectangle"    
+        wid = width_mm
+        hei = height_mm
+        dep = depth_mm #depth_mm - thickness_stack_interface
+        wid_top = wid
+        hei_top = hei
+        size = [wid, hei, dep]
+        p3["size"] = size     
+        p3["radius"] = radius_1
+        #p3["holes"] = True         uncomment to include default holes
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += 0#thickness_stack_interface+thickness_stack_interface
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        
+        
+
+
+
+        wid_count = width / 2
+        hei_count = height / 2
+        wid_cell = (2*15) - 2*thickness_wall + 2*thickness_baseplate_tolerance
+        hei_cell = (2*15) - 2*thickness_wall + 2*thickness_baseplate_tolerance
+        radius_base = radius_1 - thickness_wall + thickness_baseplate_tolerance
+        #add cutout
+        for xx in range(int(wid_count)):
+            for yy in range(int(hei_count)):
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "n"
+                p3["shape"] = f"rounded_rectangle"    
+                p3["size"] = [wid_cell, hei_cell, depth_mm]
+                p3["radius"] = radius_base
+                #p3["holes"] = True         uncomment to include default holes
+                p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)
+                pos1[0] += -(wid_count-1)*30 + 15 + xx*30
+                pos1[1] += -(hei_count-1)*30 + 15 + yy*30
+                pos1[2] += 0
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+        
+    
     if prepare_print:
         #put into a rotation object
         components_second = copy.deepcopy(thing["components"])
