@@ -337,8 +337,10 @@ def get_baseplate(thing, **kwargs):
             for yy in range(int(hei_count)):
                 p3 = copy.deepcopy(kwargs)
                 p3["type"] = "n"
-                p3["shape"] = f"rounded_rectangle"    
-                p3["size"] = [wid_cell, hei_cell, depth_mm]
+                p3["shape"] = f"rounded_rectangle"   
+                #dep = depth_mm 
+                dep = thickness_stack_interface-0.5
+                p3["size"] = [wid_cell, hei_cell, dep]
                 p3["radius"] = radius_base
                 #p3["holes"] = True         uncomment to include default holes
                 #p3["m"] = "#"
