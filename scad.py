@@ -35,7 +35,7 @@ def make_scad(**kwargs):
         filter = "baseplate"
 
         kwargs["save_type"] = "none"
-        #kwargs["save_type"] = "all"
+        kwargs["save_type"] = "all"
         
         navigation = False
         navigation = True    
@@ -145,22 +145,28 @@ def make_scad(**kwargs):
         sizes = []
         size = [4,4,thickness_stack_interface-0.5]
         sizes.append(size)
+        size = [10,10,thickness_stack_interface-0.5]
+        sizes.append(size)
+        size = [16,16,thickness_stack_interface-0.5]
+        sizes.append(size)
+        depths = [thickness_stack_interface-0.5,thickness_stack_interface+1]
         for size in sizes:
-            name = "baseplate"
-            extra = ""
-            wid = size[0]
-            hei = size[1]
-            dep = size[2]
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = wid
-            p3["height"] = hei
-            p3["thickness"] = dep
-            if extra != "":
-                p3["extra"] = extra
-            part["kwargs"] = p3
-            part["name"] = name
-            parts.append(part)
+            for depth in depths:
+                name = "baseplate"
+                extra = ""
+                wid = size[0]
+                hei = size[1]
+                dep = depth
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = hei
+                p3["thickness"] = dep
+                if extra != "":
+                    p3["extra"] = extra
+                part["kwargs"] = p3
+                part["name"] = name
+                parts.append(part)
 
     #make the parts
     if True:
@@ -325,6 +331,8 @@ def get_baseplate(thing, **kwargs):
         hei_cell = (2*15) - 2*thickness_wall + 2*thickness_baseplate_tolerance
         radius_base = radius_1 - thickness_wall + thickness_baseplate_tolerance
         #add cutout
+        start_x = -width_mm/2 + 15
+        start_y = -height_mm/2 + 15
         for xx in range(int(wid_count)):
             for yy in range(int(hei_count)):
                 p3 = copy.deepcopy(kwargs)
@@ -333,13 +341,44 @@ def get_baseplate(thing, **kwargs):
                 p3["size"] = [wid_cell, hei_cell, depth_mm]
                 p3["radius"] = radius_base
                 #p3["holes"] = True         uncomment to include default holes
-                p3["m"] = "#"
+                #p3["m"] = "#"
                 pos1 = copy.deepcopy(pos)
-                pos1[0] += -(wid_count-1)*30 + 15 + xx*30
-                pos1[1] += -(hei_count-1)*30 + 15 + yy*30
+                pos1[0] += start_x + xx*30
+                pos1[1] += start_y + yy*30
                 pos1[2] += 0
                 p3["pos"] = pos1
                 oobb_base.append_full(thing,**p3)
+        shift_x = 30
+        shift_y = 30
+        #add countersunk screw
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["radius_name"] = "m3"
+        p3["depth"] = depth_mm
+        p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += depth
+        poss = []
+        pos11 = copy.deepcopy(pos1)
+        pos11[0] += -width_mm/2 + shift_x
+        pos11[1] += -height_mm/2 + shift_y
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += width_mm/2 - shift_x
+        pos12[1] += -height_mm/2 + shift_y
+        pos13 = copy.deepcopy(pos1)
+        pos13[0] += -width_mm/2 + shift_x
+        pos13[1] += height_mm/2 - shift_y
+        pos14 = copy.deepcopy(pos1)
+        pos14[0] += width_mm/2 - shift_x
+        pos14[1] += height_mm/2 - shift_y
+        poss.append(pos11)
+        poss.append(pos12)
+        poss.append(pos13)
+        poss.append(pos14)
+        p3["pos"] = poss
+        #oobb_base.append_full(thing,**p3)
+
         
     
     if prepare_print:
