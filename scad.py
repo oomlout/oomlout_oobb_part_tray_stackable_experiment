@@ -776,7 +776,7 @@ def get_stackable_4(thing, **kwargs):
     extra = kwargs.get("extra", "")
     
     thickness_stack_interface = 5
-
+    thickness_extra_middle = 0.5
     width_mm = width * 15
     height_mm = height * 15
     depth_mm = depth
@@ -879,11 +879,13 @@ def get_stackable_4(thing, **kwargs):
                     size2 = copy.deepcopy(p3.get("size",[]))
                     size2[0] += -2*thickness_wall
                     size2[1] += -2*thickness_wall
-                    size2[2] += -2*thickness_wall
+                    size2[2] += -thickness_wall#-2*thickness_wall
                     p4["size"] = size2     
                     #p4["radius"] = radius_3           
                     p4["radius"] = radius_2
                     p4["m"] = "#"
+                    pos1 = copy.deepcopy(pos_main)
+                    pos1[2] += 0#thickness_wall
                     #more complicated becaue of slicing a cone but part of thickness bottom so not needed
                     oobb_base.append_full(thing,**p4)
 
