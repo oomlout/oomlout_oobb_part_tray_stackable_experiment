@@ -32,13 +32,13 @@ def make_scad(**kwargs):
     # save_type variables
     if True:
         filter = ""
-        filter = "baseplate"
+        #filter = "baseplate"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
         
         navigation = False
-        navigation = True    
+        #navigation = True    
 
         kwargs["overwrite"] = True
         
@@ -125,7 +125,9 @@ def make_scad(**kwargs):
         
 
         for size in sizes:
-            name = "stackable_3"
+
+            #name = "stackable_3"
+            name = "stackable_4"
             extra = ""
             wid = size[0]
             hei = size[1]
@@ -760,6 +762,294 @@ def get_stackable_2(thing, **kwargs):
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
+def get_stackable_4(thing, **kwargs):
+    
+
+    global thickness_wall, thickness_base, thickness_stack_interface,clearance_inset_stacking, thickness_stack_interface   
+    prepare_print = kwargs.get("prepare_print", False)
+    
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    thickness_stack_interface = 5
+
+    width_mm = width * 15
+    height_mm = height * 15
+    depth_mm = depth
+
+    
+
+    radius_1 = 5
+    radius_2 = radius_1 - thickness_wall
+    radius_3 = radius_2 - clearance_inset_stacking
+    radius_4 = radius_3 - thickness_wall
+    radius_5 = radius_4 - thickness_wall
+
+    wid_top = 0
+    hei_top = 0
+    wid_bot  =0
+    hei_bot = 0
+
+    #base tray
+    if True:
+    #if False:
+        #add plate minus one layer
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"rounded_rectangle"    
+        #p3["shape"] = f"sphere_rectangle"    
+        wid = width_mm
+        hei = height_mm
+        dep = depth_mm - thickness_stack_interface
+        wid_top = wid
+        hei_top = hei
+        size = [wid, hei, dep]
+        p3["size"] = size     
+        p3["radius"] = radius_1
+        #p3["holes"] = True         uncomment to include default holes
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        pos1[2] += thickness_stack_interface#thickness_stack_interface+thickness_stack_interface
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        
+        #add cutout
+        p4 = copy.deepcopy(p3)
+        p4["type"] = "n"
+        wid = wid - 2*thickness_wall
+        hei = hei - 2*thickness_wall
+        dep = dep - thickness_base
+        size = [wid, hei, dep]
+        p4["size"] = size
+        p4["radius"] = radius_2
+        #p3["holes"] = True         uncomment to include default holes
+        #p4["m"] = "#"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += thickness_stack_interface + thickness_base #+ thickness_bottom_straight_piece
+        p4["pos"] = pos1
+        oobb_base.append_full(thing,**p4)
+
+
+
+    #add joiner
+    if True:        
+        scalar = 2
+        width_bottom_mm = scalar * 15
+        height_bottom_mm = scalar * 15
+        width_count = int(width / scalar)
+        height_count = int(height / scalar)
+        for x in range(width_count):
+            for y in range(height_count):                
+                #add plate
+                #removal = thickness_wall * 2 + clearance_inset_stacking * 2
+                removal = 0
+                p3 = copy.deepcopy(kwargs)
+                
+                p3["type"] = "p"
+                #p3["shape"] = f"rounded_rectangle"    
+                p3["shape"] = f"sphere_rectangle"    
+                wid = width_bottom_mm - removal 
+                hei = height_bottom_mm - removal
+                dep = thickness_bottom_angle_piece + 10
+                size = [wid, hei, dep]
+                p3["size"] = size     
+                #p3["radius"] = radius_3
+                p3["radius"] = radius_1
+                p3["inset"] = inset_bottom *2
+                #p3["holes"] = True         uncomment to include default holes
+                #p3["m"] = "#"
+                pos1 = copy.deepcopy(pos) 
+                pos1[0] += -(((width-scalar)*15)/2)  + x * 15 * scalar
+                pos1[1] += -(((height-scalar)*15)/2) + y * 15 * scalar
+                pos1[2] += dep#thickness_stack_interface    
+                p3["pos"] = pos1
+                pos_main = copy.deepcopy(pos1)
+                rot1 = copy.deepcopy(rot)
+                rot1[1] = 180
+                p3["rot"] = rot1
+                oobb_base.append_full(thing,**p3)
+                #add angle cutout
+                if True:
+                    p4 = copy.deepcopy(p3)
+                    p4["type"] = "n"
+                    size2 = copy.deepcopy(p3.get("size",[]))
+                    size2[0] += -2*thickness_wall
+                    size2[1] += -2*thickness_wall
+                    size2[2] += -2*thickness_wall
+                    p4["size"] = size2     
+                    #p4["radius"] = radius_3           
+                    p4["radius"] = radius_2
+                    p4["m"] = "#"
+                    #more complicated becaue of slicing a cone but part of thickness bottom so not needed
+                    oobb_base.append_full(thing,**p4)
+
+                
+
+            #add sawtooth for overhangs
+                if False:
+                    #side_sawtooths
+                    if True:  
+                        end_skip = 2
+                        pass  
+                        thickness_sawtooth = thickness_layer * 2
+                        width_saw_tooth = 0.2
+                        width_gap_saw_tooth = 0.6
+                        height_saw_tooth = 3.5
+                        #repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
+                        #repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
+                        repeats_width = int(width_bottom_mm / (width_saw_tooth + width_gap_saw_tooth))
+                        repeats_height = int(height_bottom_mm / (width_saw_tooth + width_gap_saw_tooth))
+                        for xx in range(end_skip,repeats_width-end_skip):                                                   
+                            p3 = copy.deepcopy(kwargs)
+                            p3["type"] = "n"
+                            p3["shape"] = f"oobb_cube"    
+                            wid = width_saw_tooth                        
+                            hei = height_saw_tooth
+                            if xx == 2 or xx == repeats_height - 3:
+                                #hei = height_saw_tooth * 1.5
+                                #wid = width_saw_tooth * 1                        
+                                pass
+                            if xx == 1 or xx == repeats_width - 2:
+                                #hei = 1
+                                #hei = height_saw_tooth * 3
+                                pass
+                            if xx == 0 or xx == repeats_width - 1:
+                                #hei = height_saw_tooth * 5
+                                #wid = width_saw_tooth * 1.5                        
+                                pass
+                            dep = thickness_sawtooth
+                            size = [wid, hei, dep]
+                            p3["size"] = size                                 
+                            #p3["holes"] = True         uncomment to include default holes
+                            p3["m"] = "#"
+                            pos1 = copy.deepcopy(pos_main)                         
+                            #pos1[0] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            pos1[0] += -((width_bottom_mm)/2)  + (xx+1) * (width_saw_tooth + width_gap_saw_tooth) - width_saw_tooth                                                 
+                            pos1[2] = thickness_stack_interface
+                            poss = []
+                            pos11 = copy.deepcopy(pos1)
+                            pos11[1] += -((height_bottom_mm)/2)
+                            pos12 = copy.deepcopy(pos1)
+                            pos12[1] += ((height_bottom_mm)/2)
+                            poss.append(pos11)
+                            poss.append(pos12)
+                            p3["pos"] = poss
+                            oobb_base.append_full(thing,**p3)
+                        for xx in range(end_skip,repeats_height-end_skip):                                                   
+                            p3 = copy.deepcopy(kwargs)
+                            p3["type"] = "n"
+                            p3["shape"] = f"oobb_cube"    
+                            hei = width_saw_tooth                        
+                            wid = height_saw_tooth
+                            if xx == 2 or xx == repeats_height - 3:
+                                #hei = width_saw_tooth * 1
+                                #wid = height_saw_tooth * 1.5
+                                pass
+                            if xx == 1 or xx == repeats_width - 2:
+                                #hei = width_saw_tooth * 1
+                                #wid = height_saw_tooth * 3
+                                pass
+                            if xx == 0 or xx == repeats_width - 1:
+                                #hei = width_saw_tooth * 1.6
+                                #wid = height_saw_tooth * 3
+                                pass
+                            dep = thickness_sawtooth
+                            size = [wid, hei, dep]
+                            p3["size"] = size                                 
+                            #p3["holes"] = True         uncomment to include default holes
+                            p3["m"] = "#"
+                            pos1 = copy.deepcopy(pos_main)                         
+                            #pos1[1] += -((width_bottom_mm)/2)  + (xx+1) * width_saw_tooth * 2 - width_saw_tooth                                                 
+                            pos1[1] += -((width_bottom_mm)/2)  + (xx+1) * (width_saw_tooth + width_gap_saw_tooth) - width_saw_tooth                                                 
+                            pos1[2] = thickness_stack_interface
+                            poss = []
+                            pos11 = copy.deepcopy(pos1)
+                            pos11[0] += -((height_bottom_mm)/2)
+                            pos12 = copy.deepcopy(pos1)
+                            pos12[0] += ((height_bottom_mm)/2)
+                            poss.append(pos11)
+                            poss.append(pos12)
+                            p3["pos"] = poss                        
+                            oobb_base.append_full(thing,**p3)                            
+                    #corner_angles
+                    if True:
+                        inset_layer = 1
+                        p3 = copy.deepcopy(kwargs)
+                        p3["type"] = "n"
+                        p3["shape"] = f"oobb_cube"
+                        wid = 4.5
+                        hei = 4.5
+                        dep = thickness_layer
+                        size = [wid, hei, dep]
+                        p3["size"] = size
+                        p3["m"] = "#"
+                        pos1 = copy.deepcopy(pos_main)
+                        pos1[2] = thickness_stack_interface
+                        shift_x = width_bottom_mm/2
+                        shift_y = height_bottom_mm/2
+                        poss = []
+                        pos11 = copy.deepcopy(pos1)
+                        pos11[0] += -shift_x
+                        pos11[1] += -shift_y
+                        pos12 = copy.deepcopy(pos1)
+                        pos12[0] += shift_x
+                        pos12[1] += -shift_y
+                        pos13 = copy.deepcopy(pos1)
+                        pos13[0] += -shift_x
+                        pos13[1] += shift_y
+                        pos14 = copy.deepcopy(pos1)
+                        pos14[0] += shift_x
+                        pos14[1] += shift_y
+                        poss.append(pos11)
+                        poss.append(pos12)
+                        poss.append(pos13)
+                        poss.append(pos14)
+                        p3["pos"] = poss
+                        oobb_base.append_full(thing,**p3)
+                        
+                        #one layer up
+                        p4 = copy.deepcopy(p3)
+                        p4["size"][0] += -inset_layer
+                        p4["size"][1] += -inset_layer
+                        poss = p4["pos"]
+                        for pos1 in poss:
+                            pos1[2] += thickness_layer
+                        p4["m"] = "#"
+                        oobb_base.append_full(thing,**p4)
+                        #one layer up
+                        
+
+
+
+
+    
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
 def get_stackable_3(thing, **kwargs):
     global thickness_wall, thickness_base, thickness_stack_interface, clearance_inset_stacking, thickness_stack_interface   
     prepare_print = kwargs.get("prepare_print", False)
@@ -1082,6 +1372,7 @@ def get_stackable_3(thing, **kwargs):
         p3["shape"] = f"oobb_slice"
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
 ###### utilities
 
 
