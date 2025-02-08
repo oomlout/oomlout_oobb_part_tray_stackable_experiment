@@ -44,7 +44,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -57,7 +57,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -70,7 +70,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -83,7 +83,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -96,7 +96,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -109,7 +109,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -122,7 +122,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -135,7 +135,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -148,7 +148,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -161,7 +161,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -174,7 +174,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -187,7 +187,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -200,7 +200,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -213,7 +213,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -226,7 +226,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -239,7 +239,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -252,7 +252,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -265,7 +265,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -278,7 +278,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -291,7 +291,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -304,7 +304,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -317,7 +317,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -330,7 +330,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -343,7 +343,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   - - height: 10
@@ -356,7 +356,7 @@ thing:
       size:
       - 28.6
       - 28.6
-      - 4.5
+      - 2.5
       type: negative
       width: 10
   components_objects:
@@ -369,7 +369,7 @@ thing:
     - 0
     - 0
     radius: 5
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 150
@@ -387,12 +387,12 @@ thing:
     - -60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -405,12 +405,12 @@ thing:
     - -30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -423,12 +423,12 @@ thing:
     - 0.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -441,12 +441,12 @@ thing:
     - 30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -459,12 +459,12 @@ thing:
     - 60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -477,12 +477,12 @@ thing:
     - -60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -495,12 +495,12 @@ thing:
     - -30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -513,12 +513,12 @@ thing:
     - 0.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -531,12 +531,12 @@ thing:
     - 30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -549,12 +549,12 @@ thing:
     - 60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -567,12 +567,12 @@ thing:
     - -60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -585,12 +585,12 @@ thing:
     - -30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -603,12 +603,12 @@ thing:
     - 0.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -621,12 +621,12 @@ thing:
     - 30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -639,12 +639,12 @@ thing:
     - 60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -657,12 +657,12 @@ thing:
     - -60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -675,12 +675,12 @@ thing:
     - -30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -693,12 +693,12 @@ thing:
     - 0.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -711,12 +711,12 @@ thing:
     - 30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -729,12 +729,12 @@ thing:
     - 60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -747,12 +747,12 @@ thing:
     - -60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -765,12 +765,12 @@ thing:
     - -30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -783,12 +783,12 @@ thing:
     - 0.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -801,12 +801,12 @@ thing:
     - 30.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
@@ -819,42 +819,42 @@ thing:
     - 60.0
     - 0
     radius: 4.3
-    save_type: all
+    save_type: none
     shape: rounded_rectangle
     size:
     - 28.6
     - 28.6
-    - 4.5
+    - 2.5
     thickness: 2.5
     type: n
     width: 10
   components_string:
-  - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_150_150_2.5_size_5_radius
-  - rounded_rectangle_shape_n_type_-60.0_-60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-60.0_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-60.0_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-60.0_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-60.0_60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-30.0_-60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-30.0_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-30.0_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-30.0_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_-30.0_60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_0.0_-60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_0.0_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_0.0_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_0.0_60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_30.0_-60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_30.0_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_30.0_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_30.0_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_30.0_60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_60.0_-60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_60.0_-30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_60.0_0.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_60.0_30.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
-  - rounded_rectangle_shape_n_type_60.0_60.0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_4.5_size_4.3_radius
+  - rounded_rectangle_shape_p_type_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_150_150_2.5_size_5_radius
+  - rounded_rectangle_shape_n_type_-60.0_-60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-60.0_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-60.0_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-60.0_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-60.0_60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-30.0_-60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-30.0_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-30.0_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-30.0_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_-30.0_60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_0.0_-60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_0.0_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_0.0_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_0.0_60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_30.0_-60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_30.0_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_30.0_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_30.0_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_30.0_60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_60.0_-60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_60.0_-30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_60.0_0.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_60.0_30.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
+  - rounded_rectangle_shape_n_type_60.0_60.0_0_pos_none_save_type_true_overwrite_'3dpr'_modes_10_width_10_height_2.5_thickness_28.6_28.6_2.5_size_4.3_radius
   description: oomlout oobb part tray stackable experiment baseplate 10x10x2.5
   description_extra: ''
   description_main: 10_width_10_height_2.5_mm_depth
