@@ -205,7 +205,7 @@ thing:
     - 0
     - 5
     radius: 5
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 60
@@ -223,7 +223,7 @@ thing:
     - 0
     - 8
     radius: 3.8
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 57.6
@@ -246,7 +246,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 30
@@ -270,7 +270,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 27.6
@@ -293,7 +293,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 30
@@ -317,7 +317,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 27.6
@@ -340,7 +340,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 30
@@ -364,7 +364,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 27.6
@@ -387,7 +387,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 30
@@ -411,7 +411,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: sphere_rectangle
     size:
     - 27.6
@@ -421,16 +421,16 @@ thing:
     type: n
     width: 4
   components_string:
-  - rounded_rectangle_shape_p_type_0_0_5_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_60_60_13_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_8_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_57.6_57.6_10_size_3.8_radius
-  - sphere_rectangle_shape_p_type_-15.0_-15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_n_type_-15.0_-15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_p_type_-15.0_15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_n_type_-15.0_15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_p_type_15.0_-15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_n_type_15.0_-15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_p_type_15.0_15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
-  - sphere_rectangle_shape_n_type_15.0_15.0_11_pos_none_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
+  - rounded_rectangle_shape_p_type_0_0_5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_60_60_13_size_5_radius
+  - rounded_rectangle_shape_n_type_0_0_8_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_57.6_57.6_10_size_3.8_radius
+  - sphere_rectangle_shape_p_type_-15.0_-15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_n_type_-15.0_-15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_p_type_-15.0_15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_n_type_-15.0_15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_p_type_15.0_-15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_n_type_15.0_-15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_p_type_15.0_15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_30_30_11_size_5_radius_1.0_inset_0_180_0_rot
+  - sphere_rectangle_shape_n_type_15.0_15.0_11_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.6_27.6_9.8_size_3.8_radius_1.0_inset_0_180_0_rot
   description: oomlout oobb part tray stackable experiment stackable 4 4x4x18
   description_extra: ''
   description_main: 4_width_4_height_18_mm_depth
