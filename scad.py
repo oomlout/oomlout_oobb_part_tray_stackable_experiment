@@ -5,11 +5,11 @@ import oobb_base
 import yaml
 import os
 
-thickness_wall = 0.8 #1.5 #0.8
+thickness_wall = 1.2 #0.8 #1.2 #1.5 #0.8
 thickness_base = 3
 thickness_bottom = 1.5
 
-thickness_layer = 0.25
+thickness_layer = 0.15 #0.25
 thickness_baseplate_tolerance = 0.5
 
 thickness_bottom_total = 3
