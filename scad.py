@@ -532,7 +532,7 @@ def get_stackable_5(thing, **kwargs):
                         oobb_base.append_full(thing,**p5)
 
             #add sawtooth for overhangs
-                if True:
+                if False:
                     #side_sawtooths
                     if True:  
                         end_skip = 2
