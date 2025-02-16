@@ -25,39 +25,41 @@ thing:
       pos:
       - 0
       - 0
-      - 3.15
+      - 3.32
       r: 5
       shape: rounded_rectangle
       size:
       - 60
       - 60
-      - 14.85
+      - 14.68
       type: positive
       width: 4
   - - height: 4
+      m: ''
       pos:
       - 0
       - 0
       - 3
-      r: 3.8
+      r: 4.2
       shape: rounded_rectangle
       size:
-      - 58.8
-      - 58.8
-      - 0.15
+      - 59.2
+      - 59.2
+      - 0.32
       type: positive
       width: 4
   - - height: 4
+      m: '#'
       pos:
       - 0
       - 0
-      - 17.85
-      r: 4.4
+      - 17.36
+      r: 4.6
       shape: rounded_rectangle
       size:
-      - 58.8
-      - 58.8
-      - 0.15
+      - 59.2
+      - 59.2
+      - 0.64
       type: negative
       width: 4
   - - height: 4
@@ -65,11 +67,11 @@ thing:
       - 0
       - 0
       - 4.5
-      r: 3.8
+      r: 4.2
       shape: rounded_rectangle
       size:
-      - 57.6
-      - 57.6
+      - 58.4
+      - 58.4
       - 13.5
       type: negative
       width: 4
@@ -79,15 +81,15 @@ thing:
       - -15.0
       - -15.0
       - 3
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: positive
       width: 4
@@ -98,33 +100,865 @@ thing:
       - -15.0
       - -15.0
       - 4.5
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: negative
       width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -26.4
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -26.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -24.799999999999997
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -24.799999999999997
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -23.2
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -23.2
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -21.599999999999998
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -21.599999999999998
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -19.999999999999996
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -19.999999999999996
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -18.4
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -18.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -16.799999999999997
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -16.799999999999997
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -15.200000000000001
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -15.200000000000001
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -13.6
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -13.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -11.999999999999998
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -11.999999999999998
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -10.4
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -10.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -8.799999999999999
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -8.799999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -7.200000000000001
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -7.200000000000001
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -5.6
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -5.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -26.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -26.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -24.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -24.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -23.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -23.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -21.599999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -21.599999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -19.999999999999996
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -19.999999999999996
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -18.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -18.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -16.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -16.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -15.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -15.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -13.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -13.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -11.999999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -11.999999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -10.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -10.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -8.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -8.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -7.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -7.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - -5.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -5.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -32.25
+        - -32.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -32.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -32.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.75
+        - -31.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -31.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
   - - height: 4
       inset: 4
       pos:
       - -15.0
       - 15.0
       - 3
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: positive
       width: 4
@@ -135,33 +969,865 @@ thing:
       - -15.0
       - 15.0
       - 4.5
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: negative
       width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -26.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -26.4
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -24.799999999999997
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -24.799999999999997
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -23.2
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -23.2
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -21.599999999999998
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -21.599999999999998
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -19.999999999999996
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -19.999999999999996
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -18.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -18.4
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -16.799999999999997
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -16.799999999999997
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -15.200000000000001
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -15.200000000000001
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -13.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -13.6
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -11.999999999999998
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -11.999999999999998
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -10.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -10.4
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -8.799999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -8.799999999999999
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -7.200000000000001
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -7.200000000000001
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -5.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -5.6
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 3.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 3.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 5.199999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 5.199999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 6.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 6.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 8.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 8.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 10.000000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 10.000000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 11.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 11.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 13.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 13.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 14.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 14.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 16.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 16.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 18.000000000000004
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 18.000000000000004
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 19.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 19.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 21.200000000000003
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 21.200000000000003
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 22.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 22.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.5
+        - 24.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 24.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -32.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -32.25
+        - 27.75
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - 27.75
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -31.75
+        - 28.25
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - 28.25
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
   - - height: 4
       inset: 4
       pos:
       - 15.0
       - -15.0
       - 3
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: positive
       width: 4
@@ -172,33 +1838,865 @@ thing:
       - 15.0
       - -15.0
       - 4.5
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: negative
       width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 3.6
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 3.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 5.199999999999999
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 5.199999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 6.8
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 6.8
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 8.4
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 8.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 10.000000000000002
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 10.000000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 11.6
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 11.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 13.2
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 13.2
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 14.799999999999999
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 14.799999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 16.400000000000002
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 16.400000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 18.000000000000004
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 18.000000000000004
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 19.6
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 19.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 21.200000000000003
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 21.200000000000003
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 22.8
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 22.8
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 24.400000000000002
+        - -31.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 24.400000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -26.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -26.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -24.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -24.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -23.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -23.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -21.599999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -21.599999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -19.999999999999996
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -19.999999999999996
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -18.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -18.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -16.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -16.799999999999997
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -15.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -15.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -13.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -13.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -11.999999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -11.999999999999998
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -10.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -10.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -8.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -8.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -7.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -7.200000000000001
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - -5.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - -5.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -32.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 27.75
+        - -32.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 27.75
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -31.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.25
+        - -31.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.25
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
   - - height: 4
       inset: 4
       pos:
       - 15.0
       - 15.0
       - 3
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: positive
       width: 4
@@ -209,18 +2707,850 @@ thing:
       - 15.0
       - 15.0
       - 4.5
-      r: 3.5999999999999996
+      r: 4.0
       rot:
       - 0
       - 180
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 27.2
-      - 27.2
+      - 28.0
+      - 28.0
       - 3
       type: negative
       width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 3.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 3.6
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 5.199999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 5.199999999999999
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 6.8
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 6.8
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 8.4
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 8.4
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 10.000000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 10.000000000000002
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 11.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 11.6
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 13.2
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 13.2
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 14.799999999999999
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 14.799999999999999
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 16.400000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 16.400000000000002
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 18.000000000000004
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 18.000000000000004
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 19.6
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 19.6
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 21.200000000000003
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 21.200000000000003
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 22.8
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 22.8
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 24.400000000000002
+        - -1.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 24.400000000000002
+        - 28.5
+        - 3
+        shape: cube
+        size:
+        - 0.8
+        - 3
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 3.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 3.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 5.199999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 5.199999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 6.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 6.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 8.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 8.4
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 10.000000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 10.000000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 11.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 11.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 13.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 13.2
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 14.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 14.799999999999999
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 16.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 16.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 18.000000000000004
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 18.000000000000004
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 19.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 19.6
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 21.200000000000003
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 21.200000000000003
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 22.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 22.8
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.5
+        - 24.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.5
+        - 24.400000000000002
+        - 3
+        shape: cube
+        size:
+        - 3
+        - 0.8
+        - 0.64
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 27.75
+        - -2.25
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -2.25
+        - 27.75
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 27.75
+        - 27.75
+        - 3
+        shape: cube
+        size:
+        - 4.5
+        - 4.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.25
+        - -1.75
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - -1.75
+        - 28.25
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
+  - - - height: 4
+        m: '#'
+        pos:
+        - 28.25
+        - 28.25
+        - 3.32
+        shape: cube
+        size:
+        - 3.5
+        - 3.5
+        - 0.32
+        type: negative
+        width: 4
   components_objects:
   - height: 4
     modes:
@@ -229,18 +3559,19 @@ thing:
     pos:
     - 0
     - 0
-    - 3.15
+    - 3.32
     radius: 5
     save_type: all
     shape: rounded_rectangle
     size:
     - 60
     - 60
-    - 14.85
+    - 14.68
     thickness: 18
     type: p
     width: 4
   - height: 4
+    m: ''
     modes:
     - 3dpr
     overwrite: true
@@ -248,31 +3579,32 @@ thing:
     - 0
     - 0
     - 3
-    radius: 3.8
+    radius: 4.2
     save_type: all
     shape: rounded_rectangle
     size:
-    - 58.8
-    - 58.8
-    - 0.15
+    - 59.2
+    - 59.2
+    - 0.32
     thickness: 18
     type: p
     width: 4
   - height: 4
+    m: '#'
     modes:
     - 3dpr
     overwrite: true
     pos:
     - 0
     - 0
-    - 17.85
-    radius: 4.4
+    - 17.36
+    radius: 4.6
     save_type: all
     shape: rounded_rectangle
     size:
-    - 58.8
-    - 58.8
-    - 0.15
+    - 59.2
+    - 59.2
+    - 0.64
     thickness: 18
     type: n
     width: 4
@@ -284,12 +3616,12 @@ thing:
     - 0
     - 0
     - 4.5
-    radius: 3.8
+    radius: 4.2
     save_type: all
     shape: rounded_rectangle
     size:
-    - 57.6
-    - 57.6
+    - 58.4
+    - 58.4
     - 13.5
     thickness: 18
     type: n
@@ -303,7 +3635,7 @@ thing:
     - -15.0
     - -15.0
     - 3
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -311,8 +3643,8 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
     thickness: 18
     type: p
@@ -327,7 +3659,7 @@ thing:
     - -15.0
     - -15.0
     - 4.5
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -335,9 +3667,1161 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -26.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -26.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -24.4
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -24.4
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -22.8
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -22.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -21.2
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -21.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -19.599999999999998
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -19.599999999999998
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -18.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -18.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -16.4
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -16.4
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -14.8
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -14.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -13.2
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -13.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -11.599999999999998
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -11.599999999999998
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -10.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -10.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -8.399999999999999
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -8.399999999999999
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -6.800000000000001
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -6.800000000000001
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -5.199999999999999
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -5.199999999999999
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -26.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -26.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -24.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -24.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -22.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -22.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -21.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -21.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -19.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -19.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -18.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -18.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -16.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -16.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -14.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -14.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -13.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -13.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -11.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -11.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -10.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -10.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -8.399999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -8.399999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -6.800000000000001
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -6.800000000000001
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -5.199999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -5.199999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - -30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
     thickness: 18
     type: n
     width: 4
@@ -350,7 +4834,7 @@ thing:
     - -15.0
     - 15.0
     - 3
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -358,8 +4842,8 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
     thickness: 18
     type: p
@@ -374,7 +4858,7 @@ thing:
     - -15.0
     - 15.0
     - 4.5
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -382,9 +4866,1161 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -26.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -26.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -24.4
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -24.4
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -22.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -22.8
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -21.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -21.2
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -19.599999999999998
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -19.599999999999998
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -18.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -18.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -16.4
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -16.4
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -14.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -14.8
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -13.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -13.2
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -11.599999999999998
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -11.599999999999998
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -10.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -10.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -8.399999999999999
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -8.399999999999999
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -6.800000000000001
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -6.800000000000001
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -5.199999999999999
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -5.199999999999999
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 4.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 4.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 5.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 5.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 7.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 7.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 8.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 8.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 10.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 10.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 12.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 12.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 13.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 13.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 15.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 15.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 16.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 16.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 18.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 18.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 20.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 20.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 21.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 21.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 23.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 23.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 24.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 24.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -30.0
+    - 30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
     thickness: 18
     type: n
     width: 4
@@ -397,7 +6033,7 @@ thing:
     - 15.0
     - -15.0
     - 3
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -405,8 +6041,8 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
     thickness: 18
     type: p
@@ -421,7 +6057,7 @@ thing:
     - 15.0
     - -15.0
     - 4.5
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -429,9 +6065,1161 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 4.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 4.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 5.6
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 5.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 7.2
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 7.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 8.8
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 8.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 10.400000000000002
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 10.400000000000002
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 12.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 12.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 13.6
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 13.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.2
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 16.8
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 16.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 18.400000000000002
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 18.400000000000002
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 20.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 20.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 21.6
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 21.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 23.2
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 23.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 24.8
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 24.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -26.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -26.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -24.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -24.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -22.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -22.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -21.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -21.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -19.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -19.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -18.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -18.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -16.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -16.4
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -14.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -14.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -13.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -13.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -11.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -11.599999999999998
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -10.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -10.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -8.399999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -8.399999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -6.800000000000001
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -6.800000000000001
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -5.199999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -5.199999999999999
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - -30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - -30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
     thickness: 18
     type: n
     width: 4
@@ -444,7 +7232,7 @@ thing:
     - 15.0
     - 15.0
     - 3
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -452,8 +7240,8 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
     thickness: 18
     type: p
@@ -468,7 +7256,7 @@ thing:
     - 15.0
     - 15.0
     - 4.5
-    radius: 3.5999999999999996
+    radius: 4.0
     rot:
     - 0
     - 180
@@ -476,25 +7264,1433 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 27.2
-    - 27.2
+    - 28.0
+    - 28.0
     - 3
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 4.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 4.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 5.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 5.6
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 7.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 7.2
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 8.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 8.8
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 10.400000000000002
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 10.400000000000002
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 12.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 12.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 13.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 13.6
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 15.2
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 16.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 16.8
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 18.400000000000002
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 18.400000000000002
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 20.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 20.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 21.6
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 21.6
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 23.2
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 23.2
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 24.8
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 24.8
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 0.8
+    - 3
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 4.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 4.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 5.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 5.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 7.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 7.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 8.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 8.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 10.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 10.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 12.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 12.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 13.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 13.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 15.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 15.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 16.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 16.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 18.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 18.400000000000002
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 20.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 20.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 21.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 21.6
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 23.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 23.2
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 24.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 24.8
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3
+    - 0.8
+    - 0.64
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 0.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 30.0
+    - 3
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 4.5
+    - 4.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 0.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0.0
+    - 30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
+    thickness: 18
+    type: n
+    width: 4
+  - height: 4
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 30.0
+    - 30.0
+    - 3.32
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 3.5
+    - 0.32
     thickness: 18
     type: n
     width: 4
   components_string:
-  - rounded_rectangle_shape_p_type_0_0_3.15_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_60_60_14.85_size_5_radius
-  - rounded_rectangle_shape_p_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_58.8_58.8_0.15_size_3.8_radius
-  - rounded_rectangle_shape_n_type_0_0_17.85_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_58.8_58.8_0.15_size_4.4_radius
-  - rounded_rectangle_shape_n_type_0_0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_57.6_57.6_13.5_size_3.8_radius
-  - rounded_rectangle_extra_shape_p_type_-15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_-15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_p_type_-15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_-15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_p_type_15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_p_type_15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
-  - rounded_rectangle_extra_shape_n_type_15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_27.2_27.2_3_size_3.5999999999999996_radius_4_inset_0_180_0_rot
+  - rounded_rectangle_shape_p_type_0_0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_60_60_14.68_size_5_radius
+  - rounded_rectangle_shape_p_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_59.2_59.2_0.32_size_4.2_radius
+  - rounded_rectangle_shape_n_type_0_0_17.36_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_59.2_59.2_0.64_size_4.6_radius
+  - rounded_rectangle_shape_n_type_0_0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_58.4_58.4_13.5_size_4.2_radius
+  - rounded_rectangle_extra_shape_p_type_-15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_-15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - oobb_cube_shape_n_type_-26.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-26.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-24.4_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-24.4_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-22.8_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-22.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-21.2_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-21.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-19.599999999999998_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-19.599999999999998_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-18.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-18.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-16.4_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-16.4_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-14.8_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-14.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-13.2_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-13.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-11.599999999999998_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-11.599999999999998_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-10.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-10.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-8.399999999999999_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-8.399999999999999_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-6.800000000000001_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-6.800000000000001_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-5.199999999999999_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-5.199999999999999_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-26.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-26.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-24.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-24.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-22.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-22.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-21.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-21.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-19.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-19.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-18.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-18.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-16.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-16.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-14.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-14.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-13.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-13.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-11.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-11.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-10.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-10.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-8.399999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-8.399999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-6.800000000000001_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-6.800000000000001_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-5.199999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-5.199999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_-30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_-30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - rounded_rectangle_extra_shape_p_type_-15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_-15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - oobb_cube_shape_n_type_-26.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-26.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-24.4_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-24.4_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-22.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-22.8_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-21.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-21.2_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-19.599999999999998_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-19.599999999999998_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-18.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-18.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-16.4_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-16.4_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-14.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-14.8_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-13.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-13.2_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-11.599999999999998_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-11.599999999999998_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-10.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-10.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-8.399999999999999_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-8.399999999999999_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-6.800000000000001_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-6.800000000000001_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-5.199999999999999_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-5.199999999999999_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_-30.0_4.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_4.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_5.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_5.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_7.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_7.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_8.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_8.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_10.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_10.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_12.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_12.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_13.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_13.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_15.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_15.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_16.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_16.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_18.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_18.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_20.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_20.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_21.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_21.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_23.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_23.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_24.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_24.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_-30.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_-30.0_30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - rounded_rectangle_extra_shape_p_type_15.0_-15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_15.0_-15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - oobb_cube_shape_n_type_4.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_4.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_5.6_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_5.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_7.2_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_7.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_8.8_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_8.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_10.400000000000002_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_10.400000000000002_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_12.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_12.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_13.6_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_13.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_15.2_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_15.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_16.8_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_16.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_18.400000000000002_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_18.400000000000002_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_20.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_20.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_21.6_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_21.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_23.2_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_23.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_24.8_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_24.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_0.0_-26.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-26.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-24.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-24.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-22.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-22.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-21.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-21.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-19.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-19.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-18.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-18.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-16.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-16.4_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-14.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-14.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-13.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-13.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-11.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-11.599999999999998_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-10.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-10.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-8.399999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-8.399999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-6.800000000000001_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-6.800000000000001_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-5.199999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_-5.199999999999999_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_-30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_-30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_-30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - rounded_rectangle_extra_shape_p_type_15.0_15.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - rounded_rectangle_extra_shape_n_type_15.0_15.0_4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_28.0_28.0_3_size_4.0_radius_4_inset_0_180_0_rot
+  - oobb_cube_shape_n_type_4.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_4.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_5.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_5.6_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_7.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_7.2_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_8.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_8.8_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_10.400000000000002_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_10.400000000000002_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_12.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_12.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_13.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_13.6_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_15.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_15.2_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_16.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_16.8_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_18.400000000000002_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_18.400000000000002_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_20.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_20.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_21.6_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_21.6_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_23.2_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_23.2_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_24.8_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_24.8_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_0.8_3_0.64_size
+  - oobb_cube_shape_n_type_0.0_4.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_4.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_5.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_5.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_7.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_7.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_8.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_8.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_10.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_10.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_12.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_12.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_13.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_13.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_15.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_15.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_16.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_16.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_18.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_18.400000000000002_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_20.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_20.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_21.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_21.6_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_23.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_23.2_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_24.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_30.0_24.8_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3_0.8_0.64_size
+  - oobb_cube_shape_n_type_0.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_30.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_4.5_4.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_0.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_0.0_30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
+  - oobb_cube_shape_n_type_30.0_30.0_3.32_pos_all_save_type_true_overwrite_'3dpr'_modes_4_width_4_height_18_thickness_3.5_3.5_0.32_size
   description: oomlout oobb part tray stackable experiment stackable 5 4x4x18
   description_extra: ''
   description_main: 4_width_4_height_18_mm_depth

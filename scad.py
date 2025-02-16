@@ -5,11 +5,11 @@ import oobb_base
 import yaml
 import os
 
-thickness_wall = 1.2 #0.8 #1.2 #1.5 #0.8
+thickness_wall = 0.8 #0.8 #1.2 #1.5 #0.8
 thickness_base = 3
 thickness_bottom = 1.5
 
-thickness_layer = 0.15 #0.25
+thickness_layer = 0.32#0.15 #0.25
 thickness_baseplate_tolerance = 0.5
 
 thickness_bottom_total = 3
@@ -418,16 +418,17 @@ def get_stackable_5(thing, **kwargs):
         pos1 = copy.deepcopy(pos)
         pos1[2] += thickness_stack_interface
         p4["pos"] = pos1
-        #p4["m"] = "#"
+        p4["m"] = ""
         oobb_base.append_full(thing,**p4)
 
         p5 = copy.deepcopy(p4)
         p5["type"] = "n"
         p5["size"][0] = width_mm - thickness_wall
         p5["size"][1] = height_mm - thickness_wall
+        p5["size"][2] = thickness_layer * 2
         p5["radius"] = radius_1 - thickness_wall/2
-        #p5["m"] = "#"
-        p5["pos"][2] = depth - thickness_layer
+        p5["m"] = "#"
+        p5["pos"][2] = depth - thickness_layer * 2
         oobb_base.append_full(thing,**p5)
 
 
@@ -532,14 +533,14 @@ def get_stackable_5(thing, **kwargs):
                         oobb_base.append_full(thing,**p5)
 
             #add sawtooth for overhangs
-                if False:
+                if True:
                     #side_sawtooths
                     if True:  
                         end_skip = 2
                         pass  
                         thickness_sawtooth = thickness_layer * 2
-                        width_saw_tooth = 0.2
-                        width_gap_saw_tooth = 0.6
+                        width_saw_tooth = 0.8
+                        width_gap_saw_tooth = 0.8
                         height_saw_tooth = 3
                         #repeats_width = int(width_bottom_mm / (width_saw_tooth*2))
                         #repeats_height = int(height_bottom_mm / (width_saw_tooth*2))
