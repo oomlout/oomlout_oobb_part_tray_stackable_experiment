@@ -39,11 +39,11 @@ thing:
       - 0
       - 0
       - 1.5
-      r: 4.6
+      r: 4.4
       shape: rounded_rectangle
       size:
-      - 28.4
-      - 28.4
+      - 27.6
+      - 27.6
       - 13.5
       type: negative
       width: 2
@@ -99,86 +99,98 @@ thing:
       - 45.0
       - 0.0
       - 1
-      r: 4.0
+      r: 3.5999999999999996
       rot:
       - 0
       - 0
       - 0
       shape: rounded_rectangle_extra
       size:
-      - 28.0
-      - 28.0
+      - 27.2
+      - 27.2
       - 2
       type: positive
       width: 2
   - - objects:
-      - height: 2.5
-        inclusion: laser
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -2.5
-        r: 3.1734999999999998
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 2
-      - - h: 200
+      - - depth: 3
+          h: 1.7
+          height: 2
+          inclusion: laser
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 2
+      - - depth: 3
+          h: 3
           height: 2
           inclusion: laser
           m: '#'
           pos: &id002
           - 0
           - 0
-          - -100.0
+          - -3.0
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 3dpr
           m: '#'
           pos: *id002
-          r: 1.8
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 'true'
           m: '#'
           pos: *id002
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 2
-      - height: 2.5
-        inclusion: 3dpr
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -2.5
-        r: 3.4619999999999997
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 2
-      - - h: 200
+      - - depth: 3
+          h: 1.9
+          height: 2
+          inclusion: 3dpr
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 2
+      - - depth: 3
+          h: 3
           height: 2
           inclusion: laser
           m: '#'
           pos: &id003
           - 0
           - 0
-          - -100.0
-          r: 1.5
+          - -3.0
+          r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 3dpr
           m: '#'
@@ -187,54 +199,63 @@ thing:
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 'true'
           m: '#'
           pos: *id003
-          r: 1.5
+          r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 2
-      - height: 2.5
-        inclusion: 'true'
-        m: '#'
-        pos:
-        - 0
-        - 0
-        - -2.5
-        r: 3.1734999999999998
-        shape: polyg
-        sides: 6
-        type: positive
-        width: 2
-      - - h: 200
+      - - depth: 3
+          h: 1.7
+          height: 2
+          inclusion: 'true'
+          m: '#'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 2
+      - - depth: 3
+          h: 3
           height: 2
           inclusion: laser
           m: '#'
           pos: &id004
           - 0
           - 0
-          - -100.0
+          - -3.0
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 3dpr
           m: '#'
           pos: *id004
-          r: 1.8
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
-        - h: 200
+        - depth: 3
+          h: 3
           height: 2
           inclusion: 'true'
           m: '#'
           pos: *id004
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 2
@@ -275,12 +296,12 @@ thing:
     - 0
     - 0
     - 1.5
-    radius: 4.6
+    radius: 4.4
     save_type: all
     shape: rounded_rectangle
     size:
-    - 28.4
-    - 28.4
+    - 27.6
+    - 27.6
     - 13.5
     thickness: 18
     type: n
@@ -328,7 +349,7 @@ thing:
     - 45.0
     - 0.0
     - 1
-    radius: 4.0
+    radius: 3.5999999999999996
     rot:
     - 0
     - 0
@@ -336,13 +357,14 @@ thing:
     save_type: all
     shape: rounded_rectangle_extra
     size:
-    - 28.0
-    - 28.0
+    - 27.2
+    - 27.2
     - 2
     thickness: 18
     type: p
     width: 2
-  - height: 2
+  - depth: 3
+    height: 2
     hole: true
     m: '#'
     modes:
@@ -354,18 +376,18 @@ thing:
     - 3
     radius_name: m3
     save_type: all
-    shape: oobb_nut
+    shape: oobb_screw_countersunk
     thickness: 18
     type: n
     width: 2
     zz: top
   components_string:
   - rounded_rectangle_shape_p_type_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30_30_15_size_5_radius
-  - rounded_rectangle_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28.4_28.4_13.5_size_4.6_radius
+  - rounded_rectangle_shape_n_type_0_0_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.6_27.6_13.5_size_4.4_radius
   - oobb_hole_shape_n_type_m3_radius_name_1.5_depth_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness
   - rounded_rectangle_shape_p_type_45_0_0_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_30_30_1_size_5_radius
-  - rounded_rectangle_extra_shape_p_type_45.0_0.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_28.0_28.0_2_size_4.0_radius_4_inset_0_0_0_rot
-  - oobb_nut_shape_n_type_m3_radius_name_45.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_true_hole_top_zz
+  - rounded_rectangle_extra_shape_p_type_45.0_0.0_1_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_27.2_27.2_2_size_3.5999999999999996_radius_4_inset_0_0_0_rot
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3_depth_45.0_0.0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_2_width_2_height_18_thickness_true_hole_top_zz
   description: oomlout oobb part tray stackable experiment stackable 6 2x2x18
   description_extra: ''
   description_main: 2_width_2_height_18_mm_depth

@@ -5,7 +5,7 @@ import oobb_base
 import yaml
 import os
 
-thickness_wall = 0.8 #0.8 #1.2 #1.5 #0.8
+thickness_wall = 1.2 #0.8 #1.2 #1.5 #0.8
 thickness_base = 3
 thickness_bottom = 1.5
 
@@ -838,12 +838,13 @@ def get_stackable_6(thing, **kwargs):
                 p3["rot"] = rot1
                 oobb_base.append_full(thing,**p3)
 
-                #add nut
+                #add screw_countersunk
                 if True:
                     p3 = copy.deepcopy(kwargs)
                     p3["type"] = "n"
-                    p3["shape"] = f"oobb_nut"
+                    p3["shape"] = f"oobb_screw_countersunk"
                     p3["radius_name"] = "m3"
+                    p3["depth"] = thickness_bottom_flat_piece + thickness_bottom_angle_piece
                     p3["hole"] = True
                     p3["m"] = "#"
                     p3["zz"] = "top"
