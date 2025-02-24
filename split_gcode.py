@@ -37,9 +37,16 @@ def main(**kwargs):
         index = 0
         lines = bottom_gcode.split("\n")
         running = True
+        include_line = True
         while running:
             line_current = lines[index]
-            bottom_gcode_include += lines[index] + "\n"
+
+            string_end = "; stop printing object"
+            if string_end in line_current:
+                include_line = False
+
+            if include_line:
+                bottom_gcode_include += lines[index] + "\n"
             index += 1
             #stop if at end of file
             if index >= len(lines):
