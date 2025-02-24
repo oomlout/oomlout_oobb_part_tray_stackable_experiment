@@ -54,18 +54,22 @@ def main(**kwargs):
 
     #grab top gcode
     if True:
-        top_gcode_include = ""
+        top_gcode_include = "G90 ;absolute positioning\n"
         index = 0
         lines = top_gcode.split("\n")
+        print_splice = False
         running = True
         include_line = False
         while running:
             line_current = lines[index]
             z_height = ""
-            if "G1 Z" in line_current:
+            if "G1 Z" in line_current and "X" in line_current and "Y" in line_current:
                 z_height = line_current.split("Z")[1].split(" ")[0]
                 z_height = float(z_height)
-                print(f"z_height: {z_height}")
+                #print(f"z_height: {z_height}")
+                if print_splice == False:
+                    print_splice = True
+                    print(f"splice at: {z_height}")                
                 if z_height >= split_height:
                     include_line = True
             if include_line:
