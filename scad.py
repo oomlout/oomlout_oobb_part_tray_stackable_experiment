@@ -77,23 +77,28 @@ def make_scad(**kwargs):
         size = [4,4,18]
         sizes.append(size)
         
+        extras = []
+        extras.append("")
+        extras.append("top")
+        extras.append("bottom")
 
         for size in sizes:
-            name = "stackable_7"            
-            extra = ""
-            wid = size[0]
-            hei = size[1]
-            dep = size[2]
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = wid
-            p3["height"] = hei
-            p3["thickness"] = dep
-            if extra != "":
-                p3["extra"] = extra
-            part["kwargs"] = p3
-            part["name"] = name
-            parts.append(part)
+            for extra in extras:
+                name = "stackable_7"            
+                #extra = ""
+                wid = size[0]
+                hei = size[1]
+                dep = size[2]
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = hei
+                p3["thickness"] = dep
+                if extra != "":
+                    p3["extra"] = extra
+                part["kwargs"] = p3
+                part["name"] = name
+                parts.append(part)
 
         #baseplate
         sizes = []
@@ -155,6 +160,7 @@ def get_base(thing, **kwargs):
     depth = kwargs.get("thickness", 3)                    
     rot = kwargs.get("rot", [0, 0, 0])
     pos = kwargs.get("pos", [0, 0, 0])
+    
     #pos = copy.deepcopy(pos)
     #pos[2] += -20
 
@@ -1104,8 +1110,10 @@ def get_stackable_7(thing, **kwargs):
     
     
     thickness_layer = 0.6
+    thickness_layer_bottom = 0.4
+    thickness_layer_top = 0.9
     
-    thickness_bottom = thickness_layer * 3
+    thickness_bottom = thickness_layer_bottom * 3
     thickness_full_top_piece = depth
     thickness_wall = 1.2
     
@@ -1185,7 +1193,29 @@ def get_stackable_7(thing, **kwargs):
             p3["pos"] = poss
             oobb_base.append_full(thing,**p3)
 
-    
+   
+   #handle extras
+    if extra == "bottom":
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] = thickness_bottom 
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        p3["zz"] = "bottom"
+        oobb_base.append_full(thing,**p3)
+    elif extra == "top":
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] = thickness_bottom
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        p3["zz"] = "top"
+        oobb_base.append_full(thing,**p3)
+
 
 ###### utilities
 
