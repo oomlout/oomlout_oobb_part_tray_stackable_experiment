@@ -57,6 +57,8 @@ def main(**kwargs):
         top_gcode_include = "G90 ;absolute positioning\n"
         #reset extruder
         top_gcode_include += "G92 E0\n"
+        #use relative distances for extrusion
+        top_gcode_include += "M83\n"
         index = 0
         lines = top_gcode.split("\n")
         print_splice = False
