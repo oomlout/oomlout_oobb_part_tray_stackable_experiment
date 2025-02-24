@@ -66,7 +66,16 @@ def main(**kwargs):
             if string_start in line_current:
                 include_line = True
             if include_line:
-                top_gcode_include += line_current + "\n"
+                line_include = line_current
+                if "Z" in line_current:
+                    current_z_string = line_current.split("Z")[1].split(" ")[0]
+                    current_z = current_z_string.replace(":","")
+                    current_z = float(current_z)
+                    current_z_string = f"Z{current_z}"
+                    new_z = current_z + split_height
+                    new_z_string = f"Z{new_z}"
+                    line_include = line_include.replace(current_z_string,new_z_string)
+                top_gcode_include += line_include + "\n"
 
 
 
