@@ -3,8 +3,12 @@ import os
 
 def main(**kwargs):
     folder = kwargs["folder"]
-    file_name_top = f"{folder}/3dpr_slice_top.gcode"
-    file_name_bottom = f"{folder}/3dpr_slice_bottom.gcode"
+    folder_top = folder.replace("depth","depth_top_extra")
+    file_name_top = f"{folder_top}/3dpr_slice.gcode"
+    
+    folder_bottom = folder.replace("depth","depth_bottom_extra")
+    file_name_bottom = f"{folder_bottom}/3dpr_slice.gcode"
+
     file_name_output = f"{folder}/3dpr_slice_output.gcode"
     split_height = kwargs["split_height"]
 
@@ -25,6 +29,65 @@ def main(**kwargs):
     
     bottom_gcode_include = ""
 
+    
+
+
+    #grab bottom gcode
+    if True:
+        index = 0
+        lines = bottom_gcode.split("\n")
+        running = True
+        while running:
+            line_current = lines[index]
+            bottom_gcode_include += lines[index] + "\n"
+            index += 1
+            #stop if at end of file
+            if index >= len(lines):
+                running = False
+                break
+        
+        #add splice here comment
+        bottom_gcode_include += ";oomlout splice here\n"
+
+
+    top_gcode_include = ""
+    #grab top gcode
+    if True:
+        string_start = "M117"
+        
+        index = 0
+        lines = top_gcode.split("\n")
+        print_splice = False
+        running = True
+        include_line = False
+        while running:
+            line_current = lines[index]
+
+            if string_start in line_current:
+                include_line = True
+            if include_line:
+                top_gcode_include += line_current + "\n"
+
+
+
+            index += 1
+            #stop if at end of file
+            if index >= len(lines):
+                running = False
+                break
+
+    #join top and bottom
+    gcode = bottom_gcode_include + top_gcode_include
+
+    #save to output
+    with open(file_name_output, "w") as f:
+        f.write(gcode)
+    
+
+
+    
+
+def old_1():
     
     #grab bottom gcode
     if True:
@@ -83,19 +146,6 @@ def main(**kwargs):
             if index >= len(lines):
                 running = False
                 break
-
-    #join top and bottom
-    gcode = bottom_gcode_include + top_gcode_include
-
-    #save to output
-    with open(file_name_output, "w") as f:
-        f.write(gcode)
-    
-
-
-    
-
-
 
 
 
