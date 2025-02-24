@@ -71,7 +71,7 @@ def main(**kwargs):
                     current_z_string = line_current.split("Z")[1].split(" ")[0]
                     current_z = current_z_string.replace(":","")
                     current_z = float(current_z)
-                    current_z_string = f"Z{current_z}"
+                    current_z_string = f"Z{current_z_string}"
                     new_z = current_z + split_height
                     new_z_string = f"Z{new_z}"
                     line_include = line_include.replace(current_z_string,new_z_string)
