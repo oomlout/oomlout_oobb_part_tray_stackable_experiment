@@ -55,6 +55,8 @@ def main(**kwargs):
     #grab top gcode
     if True:
         top_gcode_include = "G90 ;absolute positioning\n"
+        #reset extruder
+        top_gcode_include += "G92 E0\n"
         index = 0
         lines = top_gcode.split("\n")
         print_splice = False
